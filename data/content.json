@@ -1,0 +1,396 @@
+{
+    "site": {
+        "contact_email": "info@thailand-insight.com",
+        "contact_phone": "+66 2 123 4567"
+    },
+    "travel": {
+        "title": "Reiseziele",
+        "intro": "Entdecken Sie die Vielfalt Thailands – von pulsierenden Städten über atemberaubende Natur bis hin zu tropischen Inseln.",
+        "hero_image": "assets/img/travel-hero-bangkok.jpg",
+        "tat_logo": "assets/img/tat-logo.png",
+        "section_title": "Beliebte Reiseziele",
+        "info_title": "Reiseinformationen",
+        "info_subtitle": "Geografie · Klima · Vorbereitung",
+        "amazing_title": "Amazing Thailand",
+        "amazing_line": "Always Amazes You",
+        "banner_image": "assets/img/info-banner.jpg",
+        "notice": "Aktuelle Einreise- und Sicherheitshinweise erhalten Sie auf den Websites des Auswärtigen Amts und Ihrer Reiseversicherung."
+    },
+    "travel_cards": [
+        {
+            "title": "Bangkok",
+            "subtitle": "Zentralthailand",
+            "image": "assets/img/region-bangkok.jpg",
+            "href": "bangkok.php"
+        },
+        {
+            "title": "Zentralthailand",
+            "subtitle": "Geschichte & Kultur",
+            "image": "assets/img/region-central.jpg",
+            "href": "zentralthailand.php"
+        },
+        {
+            "title": "Norden",
+            "subtitle": "Natur & Abenteuer",
+            "image": "assets/img/region-north.jpg",
+            "href": "norden.php"
+        },
+        {
+            "title": "Süden & Inseln",
+            "subtitle": "Strände & Meer",
+            "image": "assets/img/region-south.jpg",
+            "href": "sueden-inseln.php"
+        }
+    ],
+    "guides": {
+        "geografie": {
+            "label": "Geografie",
+            "icon": "pin",
+            "title": "Geografie",
+            "text": "Thailand liegt in Südostasien und erstreckt sich über eine Fläche von etwa 513.120 km². Das Land grenzt im Norden an Myanmar und Laos, im Osten an Laos und Kambodscha, im Süden an Malaysia und im Westen an Myanmar. Die langgestreckte Landeszunge reicht vom Hochland des Nordens bis zu den tropischen Inseln des Südens.\n\nDie Geografie Thailands ist vielfältig: Bergige Regionen im Norden, fruchtbare Ebenen im zentralen Tiefland, das Mekong-Plateau im Nordosten sowie traumhafte Küsten und Inseln im Golf von Thailand und der Andamanensee.\n\nDas Klima ist tropisch-monsunal geprägt mit drei Jahreszeiten: einer kühlen Saison (November – Februar), einer heißen Saison (März – Mai) und einer Regenzeit (Juni – Oktober).\nDie beste Reisezeit ist in der kühleren und trockenen Periode."
+        },
+        "reisevorbereitungen": {
+            "label": "Reisevorbereitungen",
+            "icon": "bag",
+            "title": "Reisevorbereitungen",
+            "text": "Vor der Abreise nach Thailand lohnen sich ein gültiger Reisepass (mindestens sechs Monate über das Einreisedatum hinaus), eine Reisekrankenversicherung und eine erste Unterkunft für die Ankunftstage.\n\nNützlich sind außerdem: digitale Kopien wichtiger Dokumente, eine Kredit- oder Debitkarte, etwas Bargeld in THB für die ersten Stunden, ein Adapter (Typ A/B/C) und eine lokale SIM- oder eSIM-Karte.\n\nVisa-Regeln ändern sich. Prüfe vor der Reise die aktuellen Einreisebestimmungen der Royal Thai Embassy und plane Pufferzeit für Ankunft, Transfer und Erholung nach dem Flug."
+        },
+        "sicherheit": {
+            "label": "Sicherheit",
+            "icon": "shield",
+            "title": "Sicherheit",
+            "text": "Thailand ist für Reisende in den touristischen Zentren grundsätzlich gut bereisbar. Trotzdem gelten die üblichen Regeln: Wertsachen nicht unbeaufsichtigt lassen, offizielle Taxis oder bekannte Apps nutzen und in der Nacht besonders in unbekannten Gegenden achtsam bleiben.\n\nAchte auf Wetterwarnungen in der Regenzeit, auf Strömungen an manchen Stränden und auf aktuelle Hinweise zu Demonstrationen in Bangkok.\n\nNotrufnummern: 191 Polizei, 1669 medizinischer Notfall, 1155 Tourist Police."
+        },
+        "sprache": {
+            "label": "Sprache",
+            "icon": "chat",
+            "title": "Sprache",
+            "text": "In Touristenorten wird oft Englisch verstanden. Ein paar thailändische Worte öffnen trotzdem Türen: Sawadee (Hallo), Khob khun (Danke), Aroy (lecker) und Chai / Mai (Ja / Nein).\n\nEine Übersetzungs-App und die thailändische Schrift auf Hausnummern, Speisekarten und Schildern erleichtern den Alltag. Sandra hilft dir zusätzlich bei einfachen Alltagsfragen vor Ort."
+        }
+    },
+    "ebooks": {
+        "breadcrumb": "Home  >  Ebooks",
+        "title": "Thailand lesen. Thailand verstehen.",
+        "intro": "Sieben E-Books, die nicht werben. Die warnen. Die dir sagen, was nach der Landung wirklich zählt.",
+        "hero_image": "assets/img/ebook-hero-bg.jpg",
+        "hero_books": "assets/img/ebooks-hero-books.png",
+        "section_title": "Die Bibliothek",
+        "price_note": "Zuerst die Seite. Dann das PDF.",
+        "radar_title": "Insider-Radar",
+        "radar_subtitle": "Diese Woche in Thailand",
+        "more_label": "Mehr entdecken",
+        "more_href": "ueber-thailand.php"
+    },
+    "books": [
+        {
+            "title": "Ankommen in Thailand",
+            "kicker": "Die ersten 30 Tage",
+            "description": "Landung 5 Uhr. 34 Grad. Kein Taxi. Die ersten 30 Tage entscheiden, ob Thailand dich nimmt – oder dich ausnimmt.",
+            "story": "Der Flughafen lügt nicht. Draußen ist es 34 Grad, drinnen riechen die Hallen nach Klimaanlage und Instantkaffee, und irgendwo zwischen Immigration und Taxi-Schlange merkst du: Ab jetzt zählt jeder Tag.\n\nAnkommen in Thailand ist kein Reiseführer mit Tempellisten. Es ist der Guide für die ersten dreißig Tage, in denen du entweder Fuß fasst – oder teuer lernst. Visum, SIM, Unterkunft, Geld, Gesundheit, die erste Woche, in der alles zu laut ist und trotzdem stimmt.\n\nDu liest, was du am Gate noch erledigen kannst, welche Fehler Farangs in den ersten Nächten machen, und wie du in Bangkok, Pattaya oder Chiang Mai eine Basis baust, die hält. Kein Motivationsgeschwätz. Reihenfolge. Adressen. Sätze, die du auf Thai brauchst, wenn du müde bist.\n\nWenn du dieses Buch zu Ende hast, weißt du, wo du schläfst, wie du erreichbar bist, und was du der Immigration morgen sagen kannst.",
+            "chapters": [
+                "Landung, Stempel, erste Wahrheit",
+                "Die ersten 72 Stunden ohne Panik",
+                "Visum, Stempel, Verlängerung – klar erzählt",
+                "SIM, Banking, Baht in der Tasche",
+                "Wo du die erste Woche wohnst",
+                "Gesundheit, Impfung, die Klinik um die Ecke"
+            ],
+            "meta": "38 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/cover-ankommen.jpg",
+            "page": "ebook-ankommen.php",
+            "pdf": "assets/ebooks/ankommen-in-thailand.pdf"
+        },
+        {
+            "title": "DACH Thailand",
+            "kicker": "Für DE · AT · CH",
+            "description": "Der Brief aus Deutschland kommt trotzdem. Visa, Steuer, Kasse – klären, bevor Immigration oder Finanzamt nachfragen.",
+            "story": "Thailand fühlt sich an wie Freiheit, bis der Brief aus Deutschland kommt. Oder der Beamte in Chaeng Wattana deine 60 Tage anschaut und lächelt. DACH Thailand ist für alle, die nicht nur urlauben, sondern bleiben wollen – und dabei nicht naiv werden.\n\nDu kommst aus einem Land mit Formularen. Thailand hat andere. Dieses E-Book übersetzt beides: Was die Royal Thai Embassy meint, was das Finanzamt meint, und was du tun musst, wenn du nicht mehr nur Tourist bist.\n\nKrankenversicherung, die im Ernstfall zahlt. Bankkonto, das du wirklich aufkriegst. TM30, Verlängerung, Retirement, Elite, die Märchen und die Zahlen. Geschrieben für Menschen, die Excel können und trotzdem am Strand sitzen wollen.\n\nKein Anwaltsdeutsch. Kein Aussteiger-Romantik. Eine Landkarte für den Papierkram, der dein Leben hier trägt.",
+            "chapters": [
+                "Wer du für Thailand bist – und für zu Hause",
+                "Visa-Wege ohne Wunschdenken",
+                "Steuern, Wohnsitz, der Brief aus dem Heimatland",
+                "Krank werden in Thailand – und bezahlt werden",
+                "Banken, Baht, Überweisungen",
+                "Langfristig bleiben, ohne sich zu verlaufen"
+            ],
+            "meta": "42 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/cover-dach.jpg",
+            "page": "ebook-dach.php",
+            "pdf": "assets/ebooks/dach-thailand.pdf"
+        },
+        {
+            "title": "Leben als Farang",
+            "kicker": "Kultur, Gesicht, Alltag",
+            "description": "Thais lächeln auch, wenn sie fertig mit dir sind. So lebst du hier, ohne der Farang zu sein, über den man hinter der Hand redet.",
+            "story": "Farang zu sein ist kein Kompliment und keine Beleidigung. Es ist eine Position. Du stehst sichtbar in einem Land, das höflich ist und trotzdem genau hinsieht. Dieses Buch erklärt den Raum zwischen Songthaew und Familienessen, den du sonst erst nach zwei peinlichen Jahren verstehst.\n\nLeben als Farang handelt nicht von Palmen. Es handelt von Gesicht, von Seniorität, von der Art, wie man Nein sagt, ohne Nein zu sagen. Von Tempeln, in denen Shorts enden. Von Beziehungen, in denen Geld und Liebe sich nicht so trennen lassen, wie du es aus Europa kennst.\n\nDu lernst die Fehler, die teuer sind: der erhobene Finger, der nackte Oberkörper am 7-Eleven, der Witz über den König, das laute Rechthaben in der Behörde. Und du lernst, was stattdessen geht – mit Respekt, ohne Kriecherei.\n\nWer hier bleiben will, muss nicht Thai werden. Er muss aufhören, Thailand wie ein Filmset zu behandeln.",
+            "chapters": [
+                "Was Farang wirklich bedeutet",
+                "Gesicht, Status, das leise Nein",
+                "Tempel, Körper, Kleidung",
+                "Liebe, Geld, Missverständnisse",
+                "Behörden, Polizei, höfliche Härte",
+                "Ein Alltag, der nicht peinlich ist"
+            ],
+            "meta": "36 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/cover-farang.jpg",
+            "page": "ebook-farang.php",
+            "pdf": "assets/ebooks/leben-als-farang.pdf"
+        },
+        {
+            "title": "Mit Sandra unterwegs",
+            "kicker": "Routen, Rhythmus, Realität",
+            "description": "Nach dem dritten Monat fängt Thailand erst an. Sandra kennt die Routen, die kein Prospekt zeigt.",
+            "story": "Sandra kennt die Version von Thailand, die nach dem dritten Monat anfängt. Wenn der Strand langweilig wird und die Stadt zu laut, wenn du merkst, dass du nicht auf Durchreise bist, sondern mittendrin.\n\nMit Sandra unterwegs ist der persönliche Guide durch ein Land, das sich ändert, sobald du bleibst. Routen, die Sinn ergeben. Städte, in denen man atmen kann. Fehler, die sie gemacht hat, damit du sie nicht wiederholst.\n\nDu fährst nicht die klassische Inselhopping-Liste ab. Du lernst, wie man sich bewegt: Nachtbus gegen Flug, Monsun gegen Hochsaison, Wann Chiang Mai kalt ist und Wann der Süden unruhig. Und du lernst, wie man allein unterwegs ist, ohne sich zu verlieren.\n\nDieses Buch liest sich wie eine Begleitung. Keine App-Werbung. Eine Stimme, die sagt: Hier links. Hier warten. Hier nicht.",
+            "chapters": [
+                "Die Thailand-Karte hinter der Postkarte",
+                "Bangkok als Drehscheibe, nicht als Falle",
+                "Norden, wenn du Ruhe brauchst",
+                "Inseln, ohne dich zu verbrennen",
+                "Reisen im Regen, Reisen in der Hitze",
+                "Allein unterwegs und trotzdem gehalten"
+            ],
+            "meta": "40 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/cover-sandra.jpg",
+            "page": "ebook-sandra.php",
+            "pdf": "assets/ebooks/mit-sandra-unterwegs.pdf"
+        },
+        {
+            "title": "Pattaya ohne Filter",
+            "kicker": "Ostküste, ehrlich",
+            "description": "Walking Street ist die Lüge. Das echte Pattaya fängt hinter Jomtien an – für alle, die hier wohnen wollen, nicht nur eine Nacht.",
+            "story": "Pattaya ist das Wort, bei dem in Deutschland jemand grinst, der nie da war. Wer landet, sieht zuerst die Straße und den Lärm. Wer bleibt, sieht Jomtien am Morgen, den Markt vor dem Tempel, die Thais, die hier arbeiten, und die Farangs, die nie gelernt haben, leise zu sein.\n\nPattaya ohne Filter ist kein Clubführer. Es ist eine Stadtkarte für Menschen, die wissen wollen, ob sie hier leben können. Wo es laut ist. Wo es geht. Wo du wohnst, wenn du nicht 22 bist. Wo du schwimmst, ohne dich zu schämen. Wo du am Abend isst, wenn du Walking Street satt hast.\n\nDu bekommst Quartiere, Rhythmus, Regenzeit, die Wahrheit über Preise, und den Unterschied zwischen Touristen-Pattaya und dem Pattaya, in dem Leute morgens zur Arbeit fahren.\n\nWenn du nach diesem Buch immer noch kommst, kommst du mit offenen Augen. Wenn nicht, hast du Geld gespart.",
+            "chapters": [
+                "Die Stadt, die jeder zu kennen glaubt",
+                "Quartiere: Central, Jomtien, Pratumnak, Naklua",
+                "Wohnen, Miete, was der Vertrag verschweigt",
+                "Tag und Nacht – zwei Pattayas",
+                "Alltag: Märkte, Tempel, Klinik, Bus",
+                "Bleiben oder weiterziehen"
+            ],
+            "meta": "34 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/radar-meetup.jpg",
+            "page": "ebook-pattaya.php",
+            "pdf": "assets/ebooks/pattaya-ohne-filter.pdf"
+        },
+        {
+            "title": "Thai-Feste",
+            "kicker": "Songkran bis Loy Krathong",
+            "description": "Songkran macht die Stadt nass. Loy Krathong macht sie still. Der Kalender, mit dem Thailand wirklich tickt.",
+            "story": "Thailand hat einen Kalender, der nicht in deinem Kopf sitzt. Plötzlich sind die Banken zu. Plötzlich steht die Stadt unter Wasser. Plötzlich schwimmen Krathongs auf dem Fluss und der Himmel über Chiang Mai brennt vor Laternen.\n\nThai-Feste ist das Buch für alle, die nicht als Touristenattraktion durch Songkran stolpern wollen. Du erfährst, was heilig ist und was Party ist – oft am selben Tag. Wann du Tempelkleidung brauchst. Wann du eine Drybag brauchst. Wann du erst gar nicht nach Bangkok fährst.\n\nVegetarian Festival in Phuket, Yi Peng, Ok Phansa, der Vatertag, das chinesische Neujahr in Yaowarat: nicht als Wikipedia-Liste, sondern als Gefühl plus Plan.\n\nNach der Lektüre weißt du, welches Fest du suchen sollst – und welches du in Ruhe von einem Balkon aus anschauen kannst.",
+            "chapters": [
+                "Der thailändische Kalender in einem Atemzug",
+                "Songkran: Wasser, Würde, Warnungen",
+                "Loy Krathong und Yi Peng",
+                "Phuket Vegetarian Festival",
+                "Königliche Feiertage, Banken, Stille",
+                "So planst du eine Reise um die Feste herum"
+            ],
+            "meta": "32 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/radar-songkran.jpg",
+            "page": "ebook-feste.php",
+            "pdf": "assets/ebooks/thai-feste.pdf"
+        },
+        {
+            "title": "Streetfood Thailand",
+            "kicker": "Essen, das das Land erklärt",
+            "description": "Nicht das Foto auf der Karte. Der Rauch. Der Stand, vor dem Thais Schlange stehen. Dann bestellst du richtig.",
+            "story": "Thailand schmeckt nach Rauch, Limette, Fischsauce und der Entscheidung, ob du dich traust. Streetfood Thailand nimmt dich mit an den Rand der Pfanne, nicht in das Hotelbuffet.\n\nDu lernst, woran du einen guten Stand erkennst, bevor du dich hinsetzt. Was Issan will, was der Süden will, warum das Je-Essen im Vegetarian Festival anders schmeckt, und warum Eis in Plastiktüten dazugehört.\n\nEs geht um Märkte, um Nacht, um den Mut zum Rohschalen-Muschelstand – und um den Respekt vor der Frau, die seit zwanzig Jahren denselben Curry rührt. Hygiene ohne Hysterie. Schärfe ohne Heldentum.\n\nWenn du fertig bist, bestellst du nicht mehr nach Bild. Du bestellst nach Geruch.",
+            "chapters": [
+                "Der Stand, dem du vertrauen kannst",
+                "Bangkok nachts: wo die Pfannen nicht lügen",
+                "Issan, Süden, Zentrum – drei Küchen",
+                "Schärfe, Allergien, der Tag danach",
+                "Märkte, an denen du einkaufst wie ein Local",
+                "Zehn Gerichte, die du können musst"
+            ],
+            "meta": "30 Seiten · PDF · Thailand Insight",
+            "cover": "assets/img/radar-nachtmarkt.jpg",
+            "page": "ebook-streetfood.php",
+            "pdf": "assets/ebooks/streetfood-thailand.pdf"
+        }
+    ],
+    "radar": [
+        {
+            "title": "Nachtmarkt Bangkok",
+            "text": "Wenn Bangkok heiß ist, kocht sie nachts. Rauch, Plastikstuhl, der Stand, vor dem Thais warten.",
+            "image": "assets/img/radar-nachtmarkt.jpg",
+            "href": "insider-nachtmarkt.php"
+        },
+        {
+            "title": "Songkran Preview",
+            "text": "Wasser, Tempel, Chaos. Wer Songkran ohne Plan macht, wird nass – und oft auch teuer.",
+            "image": "assets/img/radar-songkran.jpg",
+            "href": "insider-songkran.php"
+        },
+        {
+            "title": "Farang Meetup Pattaya",
+            "text": "Nicht die Bar. Die Leute, die hier wirklich leben. Pattaya hinter der Postkarte.",
+            "image": "assets/img/radar-meetup.jpg",
+            "href": "insider-meetup-pattaya.php"
+        }
+    ],
+    "news": {
+        "title": "Nachrichten aus Thailand",
+        "intro": "Aktuelle Meldungen, Schlagzeilen und Breaking News täglich aktualisiert.",
+        "hero_image": "assets/img/news-hero-bg.jpg",
+        "live_label": "LIVE NEWS",
+        "more_title": "Weitere Meldungen",
+        "ticker_title": "Sandra News Ticker"
+    },
+    "headlines": [
+        {
+            "title": "Politische Krise in Bangkok eskaliert",
+            "image": "assets/img/news-card-1.jpg",
+            "tag": "Schlagzeile",
+            "date": "Heute",
+            "source_label": "Quelle",
+            "source_url": "https://thethaiger.com/"
+        },
+        {
+            "title": "Tourismus boomt auf Phuket",
+            "image": "assets/img/news-card-2.jpg",
+            "tag": "Schlagzeile",
+            "date": "Heute",
+            "source_label": "Quelle",
+            "source_url": "https://www.pattayamail.com/"
+        },
+        {
+            "title": "Taifun nähert sich der Küste",
+            "image": "assets/img/news-card-3.jpg",
+            "tag": "Schlagzeile",
+            "date": "Heute",
+            "source_label": "Quelle",
+            "source_url": "https://www.bangkokpost.com/"
+        }
+    ],
+    "ticker": [
+        {
+            "text": "14:30 Uhr – Neue Tempel-Regeln in Ayutthaya",
+            "source_label": "Quelle: The Thaiger",
+            "source_url": "https://thethaiger.com/"
+        },
+        {
+            "text": "13:15 Uhr – Pattaya App Updates",
+            "source_label": "Quelle: Pattaya Mail",
+            "source_url": "https://www.pattayamail.com/"
+        },
+        {
+            "text": "11:45 Uhr – Farang Tipps für den Sommer",
+            "source_label": "Quelle: Bangkok Post",
+            "source_url": "https://www.bangkokpost.com/"
+        }
+    ],
+    "sandra": {
+        "eyebrow": "Deine Begleiterin in Thailand",
+        "title": "Sandra",
+        "intro": "Deine persönliche Begleiterin in Thailand. Praktische Hilfe, lokale Orientierung und einfache Unterstützung für deinen Alltag und deine Reise.",
+        "hero_image": "assets/img/sandra-home.png",
+        "button": "Sandra entdecken →",
+        "button_href": "#sandra-info",
+        "heading": "Mit Sandra unterwegs",
+        "body": "Sandra ist als praktische digitale Begleiterin für Thailand gedacht: lokale Orientierung, verständliche Hilfe im Alltag, Hinweise zu Orten und Dienstleistungen sowie eine einfache Verbindung zu wichtigen Informationen.",
+        "h2_1": "Lokale Hilfe",
+        "p_1": "Finde passende Anlaufstellen, Restaurants, Dienstleistungen und praktische Ziele in deiner Umgebung.",
+        "h2_2": "Sprache & Orientierung",
+        "p_2": "Einfach verständliche Unterstützung für Situationen, in denen Sprache oder lokale Abläufe sonst kompliziert werden.",
+        "h2_3": "Flexibel erweiterbar",
+        "p_3": "Texte, Bilder, Buttons und Links dieser Seite kannst du später im Admin-Panel anpassen. Das Grunddesign bleibt dabei gesperrt."
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "Schreiben Sie uns",
+        "name_label": "Name",
+        "email_label": "Email",
+        "message_label": "Nachricht",
+        "button": "Senden",
+        "success": "Vielen Dank. Deine Nachricht wurde gespeichert."
+    },
+    "about": {
+        "eyebrow": "Thailand Insight Group",
+        "title": "Über uns",
+        "body": "Thailand Insight Group verbindet fundierte Thailand-Informationen, praktische Reisehilfen und digitale Guides. Unser Ziel ist eine klare, elegante und verlässliche Orientierung für Reisende und Menschen, die in Thailand leben oder leben möchten."
+    },
+    "links": {
+        "eyebrow": "Service",
+        "title": "Nützliche Links",
+        "body": "Wichtige Anlaufstellen und praktische Verbindungen für deinen Aufenthalt in Thailand.",
+        "travel_heading": "Reise & Aufenthalt",
+        "tat_label": "Tourism Authority of Thailand",
+        "tat_url": "https://www.tourismthailand.org/",
+        "weather_heading": "Wetter",
+        "tmd_label": "Thai Meteorological Department",
+        "tmd_url": "https://www.tmd.go.th/",
+        "aa_label": "Auswärtiges Amt – Thailand",
+        "aa_url": "https://www.auswaertiges-amt.de/de/service/laender/thailand-node"
+    },
+    "legal": {
+        "eyebrow": "Rechtliches",
+        "title": "Impressum AGB Datenschutz",
+        "toc": "1. Impressum\n2. AGB\n3. Datenschutz",
+        "imprint_title": "Impressum",
+        "imprint_body": "Angaben gemäß den jeweils anwendbaren gesetzlichen Vorschriften. Die endgültigen Unternehmens-, Vertretungs- und Registrierungsdaten kannst du im Admin-Panel pflegen.",
+        "company": "Thailand Insight Group Co., Ltd.",
+        "address": "123 Sukhumvit Road\nBangkok 10110\nThailand",
+        "terms_title": "Allgemeine Geschäftsbedingungen",
+        "terms_body": "Diese Website stellt Informationen und digitale Inhalte rund um Thailand bereit. Für kostenpflichtige E-Books und digitale Guides gelten die beim jeweiligen Produkt angegebenen Preise und Nutzungsbedingungen. Digitale Inhalte werden nach dem Kauf zum Download bereitgestellt. Ein Widerruf kann nach Beginn des Downloads digitaler Inhalte ausgeschlossen sein, sofern darauf vor dem Kauf hingewiesen wurde. Die endgültigen AGB sollten vor dem Live-Betrieb rechtlich geprüft und an das konkrete Unternehmen angepasst werden.",
+        "privacy_title": "Datenschutz",
+        "privacy_body": "Personenbezogene Daten werden nur verarbeitet, soweit dies für den Betrieb der Website, die Bearbeitung von Kontaktanfragen oder die Bereitstellung gebuchter Leistungen erforderlich ist. Kontaktformular-Nachrichten werden auf dem Hosting-Server gespeichert und sind nur im geschützten Admin-Bereich einsehbar. Es kommen Session-Cookies für den Admin-Login zum Einsatz. Die endgültige Datenschutzerklärung muss an Hosting, E-Mail, Zahlungs- und Analysedienste angepasst werden."
+    },
+    "topics": {
+        "bangkok": {
+            "title": "Bangkok",
+            "image": "assets/img/region-bangkok.jpg",
+            "text": "Bangkok verbindet Tempel, Märkte, moderne Stadtviertel und das Leben am Chao Phraya. Wat Arun, der Große Palast, Chinatown und die Skyline am Fluss gehören zu den ersten Stationen – ebenso wie Streetfood, Rooftop-Bars und der Alltag zwischen BTS, Booten und Tuk-Tuks."
+        },
+        "zentralthailand": {
+            "title": "Zentralthailand",
+            "image": "assets/img/region-central.jpg",
+            "text": "Historische Städte, Tempelanlagen und fruchtbare Ebenen prägen das Zentrum Thailands. Ayutthaya und Lopburi erzählen von Königreichen, der Chao Phraya versorgt das Tiefland, und von Bangkok aus sind viele dieser Orte gut erreichbar."
+        },
+        "norden": {
+            "title": "Norden",
+            "image": "assets/img/region-north.jpg",
+            "text": "Berge, Natur, Kultur und traditionsreiche Städte machen den Norden zu einer besonderen Thailand-Region. Chiang Mai, Chiang Rai und die Berglandschaften eignen sich für Tempel, Märkte, Trekking und ein kühleres Klima in den Wintermonaten."
+        },
+        "sueden-inseln": {
+            "title": "Süden & Inseln",
+            "image": "assets/img/region-south.jpg",
+            "text": "Tropische Inseln, Strände und die Küsten am Golf von Thailand und an der Andamanensee. Phuket, Koh Samui, Krabi und die kleineren Inseln stehen für Meer, Felsen, Schnorcheln und lange Abende am Strand."
+        },
+        "klima": {
+            "title": "Klima",
+            "image": "assets/img/info-banner.jpg",
+            "text": "Thailand hat ein tropisches, monsunal geprägtes Klima. Die beste Reisezeit hängt stark von Region und Jahreszeit ab: Der kühle Zeitraum von November bis Februar gilt in vielen Landesteilen als angenehmste Reisezeit, während Regen und Hitze regional sehr unterschiedlich ausfallen."
+        },
+        "ebook-ankommen": {
+            "title": "Ankommen in Thailand",
+            "image": "assets/img/cover-ankommen.jpg",
+            "text": "Der praktische Startguide für die ersten Schritte in Thailand: Visum, Anreise, Unterkunft, SIM-Karte, Bankkonto und Orientierung in den ersten Wochen."
+        },
+        "ebook-dach": {
+            "title": "DACH Thailand",
+            "image": "assets/img/cover-dach.jpg",
+            "text": "Orientierung für Menschen aus Deutschland, Österreich und der Schweiz: Visa, Steuern, Banken, Krankenversicherung und Alltag."
+        },
+        "ebook-farang": {
+            "title": "Leben als Farang",
+            "image": "assets/img/cover-farang.jpg",
+            "text": "Alltag, Kultur und Orientierung für ein Leben in Thailand – mit Hinweisen zu typischen Missverständnissen und einem respektvollen Miteinander."
+        },
+        "insider-nachtmarkt": {
+            "title": "Nachtmarkt Bangkok",
+            "image": "assets/img/radar-nachtmarkt.jpg",
+            "text": "Garküchen, Lichter und das besondere Nachtleben der Stadt. Ein guter Einstieg in Streetfood, Souvenirs und das Abendleben Bangkoks."
+        },
+        "insider-songkran": {
+            "title": "Songkran Preview",
+            "image": "assets/img/radar-songkran.jpg",
+            "text": "Vorbereitung und Tipps rund um das thailändische Neujahrsfest: Wasser, Tempelbesuche, Reisen in der Hochsaison und was du vor Ort erwarten kannst."
+        },
+        "insider-meetup-pattaya": {
+            "title": "Farang Meetup Pattaya",
+            "image": "assets/img/radar-meetup.jpg",
+            "text": "Austausch, Kontakte und praktische Tipps in Pattaya – für Neuankömmlinge, Langzeitgäste und alle, die lokale Orientierung suchen."
+        }
+    }
+}

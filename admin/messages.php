@@ -1,0 +1,6 @@
+<?php
+declare(strict_types=1);
+require __DIR__.'/auth.php'; admin_require();
+function qh(string $v):string{return htmlspecialchars($v,ENT_QUOTES,'UTF-8');}
+$file=__DIR__.'/../data/messages.json';$rows=is_file($file)?json_decode((string)file_get_contents($file),true):[];if(!is_array($rows))$rows=[];$rows=array_reverse($rows);
+?><!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kontaktanfragen</title><link rel="stylesheet" href="admin.css?v=2"></head><body><main class="admin-main" style="margin:auto"><p><a href="index.php">← Zur Inhaltsverwaltung</a></p><header><div><p class="kicker">POSTEINGANG</p><h1>Kontaktanfragen</h1><p><?=count($rows)?> gespeicherte Anfrage(n)</p></div></header><?php if(!$rows):?><div class="notice success">Noch keine Kontaktanfragen vorhanden.</div><?php endif;?><?php foreach($rows as $row):?><article class="message-card"><h3><?=qh((string)($row['name']??''))?></h3><p><a href="mailto:<?=qh((string)($row['email']??''))?>"><?=qh((string)($row['email']??''))?></a></p><p><?=nl2br(qh((string)($row['message']??'')))?></p><small><?=qh((string)($row['time']??''))?></small></article><?php endforeach;?></main></body></html>

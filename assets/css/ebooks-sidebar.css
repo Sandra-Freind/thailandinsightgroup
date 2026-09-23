@@ -1,0 +1,146 @@
+/* =========================================================
+   E-BOOKS – SIDEBAR WIE AUF DER STARTSEITE
+   Diese Datei gilt ausschließlich für die E-Books-Sidebar.
+   ========================================================= */
+
+.sidebar.sidebar--sunset {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.28),
+            rgba(0, 0, 0, 0.34)
+        ),
+        url("../img/sidebar-sunset.jpg");
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Dunkle Überlagerung über dem Hintergrundbild */
+
+.sidebar.sidebar--sunset .sidebar-sunset-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    background: rgba(0, 0, 0, 0.12);
+
+    pointer-events: none;
+}
+
+
+/* Inhalt der Sidebar bleibt über dem Hintergrund */
+
+.sidebar.sidebar--sunset .sidebar-inner {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Logo und Navigation */
+
+.sidebar.sidebar--sunset .brand-block,
+.sidebar.sidebar--sunset .nav {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Good Vibes / Good Life */
+
+.sidebar.sidebar--sunset .sidebar-vibes--sunset {
+    position: relative;
+    z-index: 2;
+
+    margin-top: auto;
+    padding: 24px 22px 8px;
+
+    text-align: center;
+
+    color: #f3b51b;
+
+    text-shadow:
+        0 1px 8px rgba(0, 0, 0, 0.55);
+}
+
+
+/* Goldene Schreibschrift */
+
+.sidebar.sidebar--sunset .sidebar-vibes-script {
+    font-family:
+        "Great Vibes",
+        "Brush Script MT",
+        "Segoe Script",
+        cursive;
+
+    font-size: 34px;
+    line-height: 0.82;
+    font-weight: 400;
+
+    color: #f3b51b;
+}
+
+
+/* Kleine Sonne hinter Good Life */
+
+.sidebar.sidebar--sunset .sidebar-vibes-script span {
+    display: inline-block;
+
+    margin-left: 3px;
+
+    font-family: Georgia, serif;
+    font-size: 20px;
+
+    vertical-align: middle;
+
+    color: #f3b51b;
+}
+
+
+/* Kleine goldene Zeile darunter */
+
+.sidebar.sidebar--sunset .sidebar-vibes-small {
+    margin-top: 10px;
+
+    font-family:
+        "Outfit",
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+
+    font-size: 6px;
+    line-height: 1.45;
+    font-weight: 600;
+
+    letter-spacing: 0.28em;
+
+    color: #f3b51b;
+}
+
+
+/* Mobile Navigation */
+
+@media (max-width: 860px) {
+
+    .sidebar.sidebar--sunset {
+        position: fixed;
+
+        left: 0;
+        top: 0;
+
+        width: min(82vw, 280px);
+        height: 100vh;
+    }
+}
