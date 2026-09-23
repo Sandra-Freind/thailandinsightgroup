@@ -1,0 +1,1 @@
+<?php $activeNav='travel'; $topicKey='sueden-inseln'; require __DIR__.'/includes/topic-page.php';

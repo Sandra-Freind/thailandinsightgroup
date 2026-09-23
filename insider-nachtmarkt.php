@@ -1,0 +1,1 @@
+<?php $activeNav='ebooks'; $topicKey='insider-nachtmarkt'; require __DIR__.'/includes/topic-page.php';

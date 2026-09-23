@@ -1,0 +1,1 @@
+<?php header('Location: impressum.php#datenschutz', true, 302); exit;

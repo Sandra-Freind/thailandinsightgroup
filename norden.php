@@ -1,0 +1,1 @@
+<?php $activeNav='travel'; $topicKey='norden'; require __DIR__.'/includes/topic-page.php';

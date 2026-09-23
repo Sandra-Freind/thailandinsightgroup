@@ -1,0 +1,1 @@
+<?php $activeNav='travel'; $pageTitle='Geografie'; $pageDescription='Geografie Thailands.'; require __DIR__.'/includes/page-start.php'; $currentGuide='geografie'; require __DIR__.'/includes/travel-body.php'; require __DIR__.'/includes/page-end.php';

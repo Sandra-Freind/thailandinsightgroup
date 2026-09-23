@@ -1,0 +1,1 @@
+<?php $activeNav='travel'; $pageTitle='Reisevorbereitungen'; require __DIR__.'/includes/page-start.php'; $currentGuide='reisevorbereitungen'; require __DIR__.'/includes/travel-body.php'; require __DIR__.'/includes/page-end.php';

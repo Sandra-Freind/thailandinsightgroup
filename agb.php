@@ -1,0 +1,1 @@
+<?php header('Location: impressum.php#agb', true, 302); exit;

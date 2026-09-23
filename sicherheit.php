@@ -1,0 +1,1 @@
+<?php $activeNav='travel'; $pageTitle='Sicherheit'; require __DIR__.'/includes/page-start.php'; $currentGuide='sicherheit'; require __DIR__.'/includes/travel-body.php'; require __DIR__.'/includes/page-end.php';
