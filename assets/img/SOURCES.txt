@@ -13,3 +13,9 @@ Zusätzliche Landschaftsfotos (Unsplash-Lizenz, freie Nutzung):
 - photo-1548013146-72479768bada
 - photo-1508009603885-50cf7c579365
 - photo-1464822759023-fed622ff2c3b
+
+Exklusiv für dieses Projekt erzeugte Motive:
+
+- north-premium.jpg – redaktionelle Nordthailand-Landschaft, KI-generiert
+- south-premium.jpg – redaktionelle Südthailand-Landschaft, KI-generiert
+- sandra-hero-premium.jpg – visuelles Sandra-Keyvisual, KI-generiert; keine reale Person

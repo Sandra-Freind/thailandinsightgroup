@@ -1,0 +1,31 @@
+THAILAND INSIGHT – INSTALLATION AUF HOSTINGER
+================================================
+
+1. In Hostinger den Ordner public_html öffnen.
+2. Vorhandene alte Website-Dateien nur löschen, wenn eine Sicherung existiert.
+3. Die finale ZIP direkt in public_html hochladen.
+4. Beim Entpacken als Ziel public_html verwenden. Falls Hostinger zwingend einen
+   Ordnernamen verlangt, temporär "thailand-upload" wählen und danach ALLE
+   enthaltenen Dateien und Ordner eine Ebene nach public_html verschieben.
+5. Im Stamm von public_html müssen anschließend unter anderem index.php,
+   .htaccess, assets, includes und data liegen.
+6. Die ZIP und einen eventuell leeren temporären Ordner anschließend entfernen.
+
+WICHTIG VOR DER ÖFFENTLICHEN VERÖFFENTLICHUNG
+------------------------------------------------
+- Impressum, Datenschutz und AGB mit den echten Unternehmensdaten juristisch
+  prüfen und vervollständigen.
+- Kontakt-E-Mail und Telefonnummer in data/content.json kontrollieren.
+- Die sieben aktuellen PDF-Dateien sind ausdrücklich Leseproben mit je 7 Seiten.
+  Vollständige Buchausgaben müssen später unter assets/ebooks ersetzt werden.
+- Auf der Über-uns-Seite sind keine erfundenen Familien- oder Baubilder eingebaut.
+  Eigene Originalfotos können später ergänzt werden.
+- sandra-hero-premium.jpg ist ein KI-generiertes Keyvisual und keine reale Person.
+
+TECHNIK
+------------------------------------------------
+- PHP 8.1 oder neuer empfohlen
+- Keine Datenbank erforderlich
+- Apache/Hostinger-kompatible .htaccess enthalten
+- data und includes sind vor direktem Webzugriff geschützt
+- Kontaktanfragen werden serverseitig in data/messages.json gespeichert

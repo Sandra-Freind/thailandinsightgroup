@@ -1,44 +1,5 @@
-<?php
-$activeNav = 'news';
-$pageTitle = 'Nachrichten aus Thailand';
-$pageDescription = 'Aktuelle Nachrichten, Schlagzeilen und Ticker aus Thailand.';
-require __DIR__ . '/includes/page-start.php';
-$news = $cms['news'];
-?>
-<section class="news-hero">
-    <img class="hero-photo" src="<?= e($news['hero_image']) ?>" alt="">
-    <div class="news-hero-copy">
-        <h1><?= e($news['title']) ?></h1>
-    </div>
-</section>
-
-<div class="news-lead">
-    <p><?= e($news['intro']) ?></p>
-    <span class="live-pill"><?= e($news['live_label']) ?></span>
-</div>
-
-<div class="news-stack">
-    <?php foreach ($cms['headlines'] as $h): ?>
-        <article class="headline">
-            <img src="<?= e($h['image']) ?>" alt="">
-            <span class="tag"><?= e($h['tag']) ?></span>
-            <div class="txt">
-                <span class="date"><?= e($h['date']) ?></span>
-                <h3><?= e($h['title']) ?></h3>
-                <a class="quelle" href="<?= e($h['source_url']) ?>" <?= str_starts_with((string) $h['source_url'], 'http') ? 'target="_blank" rel="noopener"' : '' ?>>▣ <?= e($h['source_label']) ?></a>
-            </div>
-        </article>
-    <?php endforeach; ?>
-</div>
-
-<section class="ticker">
-    <h2><?= e($news['more_title']) ?></h2>
-    <h3><?= e($news['ticker_title']) ?></h3>
-    <?php foreach ($cms['ticker'] as $t): ?>
-        <div class="tick">
-            <span><?= e($t['text']) ?></span>
-            <a href="<?= e($t['source_url']) ?>" <?= str_starts_with((string) $t['source_url'], 'http') ? 'target="_blank" rel="noopener"' : '' ?>><?= e($t['source_label']) ?></a>
-        </div>
-    <?php endforeach; ?>
-</section>
-<?php require __DIR__ . '/includes/page-end.php'; ?>
+<?php declare(strict_types=1);$activeNav='news';$pageTitle='Nachrichten und Orientierung aus Thailand';$pageDescription='Aktuelle Hinweise, verlässliche Quellen und Einordnungen für Reisende und Residenten.';require __DIR__.'/includes/page-start.php';?>
+<section class="page-hero"><img src="assets/img/news-card-1.jpg" alt="Bangkok am Abend"><div class="page-hero-copy"><p class="eyebrow">Aktuell. Relevant. Eingeordnet.</p><h1>Thailand im Blick.</h1><p>Keine erfundenen Schlagzeilen und kein Alarmismus. Wir zeigen, welche Entwicklungen für Reisende und Residenten tatsächlich wichtig sind.</p></div></section>
+<section class="section section--paper"><div class="section-head"><div><p class="eyebrow">Verlässliche Orientierung</p><h2>Direkt zu offiziellen Quellen</h2></div><p>Aktuelle Regeln, Wetterwarnungen und Reisehinweise können sich kurzfristig ändern. Prüfe vor wichtigen Entscheidungen immer die zuständige Originalquelle.</p></div><div class="news-grid"><a class="news-card" href="https://www.tourismthailand.org/" target="_blank" rel="noopener"><img src="assets/img/news-card-2.jpg" alt="Reisen in Thailand"><div><time>TOURISM AUTHORITY OF THAILAND</time><h3>Reiseinformationen und offizielle Tourismushinweise</h3></div></a><a class="news-card" href="https://www.tmd.go.th/" target="_blank" rel="noopener"><img src="assets/img/news-card-3.jpg" alt="Wetter an Thailands Küste"><div><time>THAI METEOROLOGICAL DEPARTMENT</time><h3>Wetter und Warnmeldungen</h3></div></a><a class="news-card" href="https://www.auswaertiges-amt.de/de/service/laender/thailand-node" target="_blank" rel="noopener"><img src="assets/img/topic-airport.jpg" alt="Reisehinweise für Thailand"><div><time>AUSWÄRTIGES AMT</time><h3>Reise- und Sicherheitshinweise</h3></div></a></div></section>
+<section class="section section--ink"><div class="section-head"><div><p class="eyebrow">Unsere Themen</p><h2>Was wir für dich einordnen</h2></div></div><div class="topic-grid"><article class="info-tile" style="background:#0b2527"><h3>Einreise & Aufenthalt</h3><p>Änderungen bei Einreise, Verlängerungen und wichtigen Abläufen – verständlich zusammengefasst.</p><a href="reisevorbereitungen.php">Mehr erfahren →</a></article><article class="info-tile" style="background:#0b2527"><h3>Wetter & Saison</h3><p>Regionale Unterschiede, Regenzeit und Hinweise für eine realistische Reiseplanung.</p><a href="klima.php">Zum Klima-Guide →</a></article><article class="info-tile" style="background:#0b2527"><h3>Pattaya & Sandra</h3><p>Lokale Entwicklungen und praktische Neuerungen rund um Sandras Begleitfunktionen.</p><a href="sandra-app.php">Sandra entdecken →</a></article></div></section>
+<?php require __DIR__.'/includes/page-end.php';?>

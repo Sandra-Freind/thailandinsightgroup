@@ -1,33 +1,16 @@
 <?php
-declare(strict_types=1);
-require_once __DIR__ . '/cms.php';
-require_once __DIR__ . '/nav.php';
-
-$topicKey = $topicKey ?? basename($_SERVER['SCRIPT_NAME'] ?? '', '.php');
-$cms = $cms ?? cms_load();
-$topic = $cms['topics'][$topicKey] ?? [
-    'title' => 'Thailand Insight',
-    'image' => 'assets/img/region-south.jpg',
-    'text' => 'Weitere Inhalte zu Thailand.',
-];
-$pageTitle = $topic['title'];
-$activeNav = $activeNav ?? '';
-require __DIR__ . '/page-start.php';
+declare(strict_types=1);require_once __DIR__.'/cms.php';$cms=$cms??cms_load();$topicKey=$topicKey??basename($_SERVER['SCRIPT_NAME']??'','.php');$topic=$cms['topics'][$topicKey]??['title'=>'Thailand','image'=>'assets/img/hero-poster.jpg','text'=>'Weitere Inhalte folgen.'];$activeNav=$activeNav??'travel';$pageTitle=(string)$topic['title'];$pageDescription=(string)$topic['text'];require __DIR__.'/page-start.php';
+$details=[
+'bangkok'=>['hero'=>'assets/img/hero-poster.jpg','eyebrow'=>'Metropole am Chao Phraya','intro'=>'Bangkok verlangt keine Entscheidung zwischen Tradition und Zukunft. Die Stadt lebt beides gleichzeitig.','items'=>[['Am Fluss','Boote, Tempel und alte Viertel verbinden Bangkok besser als jede Schnellstraße.'],['In Bewegung','BTS, MRT und Expressboote machen die Metropole verständlicher.'],['Nach Sonnenuntergang','Märkte, Garküchen und Rooftops zeigen völlig verschiedene Seiten derselben Stadt.']]],
+'zentralthailand'=>['hero'=>'assets/img/region-central.jpg','eyebrow'=>'Geschichte und Flusslandschaften','intro'=>'Das zentrale Tiefland ist das historische und wirtschaftliche Herz des Landes.','items'=>[['Ayutthaya','Ruinen und Tempel erzählen von der früheren Königsstadt.'],['Chao Phraya','Der Fluss prägt Landwirtschaft, Handel und Alltag.'],['Kurze Wege','Viele Ziele lassen sich von Bangkok als Tages- oder Wochenendreise erreichen.']]],
+'norden'=>['hero'=>'assets/img/north-premium.jpg','eyebrow'=>'Berge, Handwerk und Lanna-Kultur','intro'=>'Im Norden wird Thailand ruhiger, grüner und in den Wintermonaten überraschend kühl.','items'=>[['Chiang Mai','Tempelstadt, Kreativszene und Ausgangspunkt für das Bergland.'],['Chiang Rai','Zeitgenössische Tempelkunst und Nähe zum Goldenen Dreieck.'],['Bergregionen','Natur verlangt Rücksicht, gute Planung und Respekt vor lokalen Gemeinschaften.']]],
+'sueden-inseln'=>['hero'=>'assets/img/south-premium.jpg','eyebrow'=>'Zwei Küsten, viele Jahreszeiten','intro'=>'Andamanensee und Golf von Thailand folgen nicht demselben Wetterrhythmus.','items'=>[['Andamanensee','Krabi, Phuket und die Kalksteinlandschaften des Westens.'],['Golf von Thailand','Samui, Phangan und Tao mit eigener Monsunzeit.'],['Inselwahl','Erreichbarkeit, Saison und Reisestil sind wichtiger als Rankings.']]],
+'klima'=>['hero'=>'assets/img/info-banner.jpg','eyebrow'=>'Reisezeit ist regional','intro'=>'Thailand hat nicht eine einzige beste Reisezeit. Küsten und Regionen reagieren unterschiedlich auf den Monsun.','items'=>[['November bis Februar','In vielen Regionen trockener und etwas kühler.'],['März bis Mai','Sehr heiß, besonders im Landesinneren.'],['Regenzeit','Oft kräftige Schauer statt pausenlosem Regen – regional sehr verschieden.']]],
+'insider-nachtmarkt'=>['hero'=>'assets/img/radar-nachtmarkt.jpg','eyebrow'=>'Bangkok nach Sonnenuntergang','intro'=>'Ein Nachtmarkt ist Küche, Treffpunkt und Stadtbeobachtung zugleich.','items'=>[['Hinschauen','Viele lokale Gäste und schneller Warenumschlag sind gute Zeichen.'],['Probieren','Kleine Portionen lassen mehr Raum zum Entdecken.'],['Respekt','Erst fragen, dann Menschen und Stände fotografieren.']]],
+'insider-songkran'=>['hero'=>'assets/img/radar-songkran.jpg','eyebrow'=>'Neujahr zwischen Ritual und Wasserfest','intro'=>'Songkran ist Familienzeit, Tempeltradition und ausgelassenes Straßenfest.','items'=>[['Schützen','Telefon, Dokumente und Medikamente gehören wasserdicht verpackt.'],['Planen','Verkehr und Unterkünfte sind vielerorts stark ausgelastet.'],['Verstehen','Der respektvolle Teil des Festes beginnt nicht erst bei der Wasserschlacht.']]],
+'insider-meetup-pattaya'=>['hero'=>'assets/img/radar-meetup.jpg','eyebrow'=>'Ankommen und Kontakte finden','intro'=>'Gute Kontakte entstehen dort, wo gemeinsame Interessen wichtiger sind als schnelle Bekanntschaften.','items'=>[['Lokale Gruppen','Sport, Sprache und Nachbarschaft schaffen natürliche Verbindungen.'],['Offen bleiben','Internationales Pattaya lebt von sehr unterschiedlichen Lebensentwürfen.'],['Sicher treffen','Öffentliche Orte und klare Verabredungen sind für erste Treffen sinnvoll.']]]
+];$d=$details[$topicKey]??['hero'=>$topic['image'],'eyebrow'=>'Thailand entdecken','intro'=>$topic['text'],'items'=>[]];
 ?>
-<section class="topic-hero">
-    <img class="hero-photo" src="<?= e($topic['image']) ?>" alt="">
-    <div class="topic-hero-copy">
-        <h1><?= e($topic['title']) ?></h1>
-        <div class="gold-rule" aria-hidden="true"></div>
-    </div>
-</section>
-<section class="topic-body">
-    <?php foreach (preg_split("/\n{2,}/", trim((string) $topic['text'])) as $para): ?>
-        <p><?= nl2br(e($para)) ?></p>
-    <?php endforeach; ?>
-    <p class="btn-row">
-        <a class="gold-btn" href="ueber-thailand.php">Zum Reiseführer</a>
-        <a class="pink-btn" href="index.php">Zur Startseite</a>
-    </p>
-</section>
-<?php require __DIR__ . '/page-end.php'; ?>
+<section class="page-hero"><img src="<?=e($d['hero'])?>" alt="<?=e($topic['title'])?>"><div class="page-hero-copy"><p class="eyebrow"><?=e($d['eyebrow'])?></p><h1><?=e($topic['title'])?></h1><p><?=e($d['intro'])?></p></div></section>
+<section class="section section--paper"><article class="content-prose"><p class="eyebrow">Einordnung</p><h2><?=e($topic['title'])?> jenseits der Postkarte</h2><?php foreach(preg_split('/\n{2,}/',trim((string)$topic['text'])) as $para):?><p><?=nl2br(e($para))?></p><?php endforeach;?></article><?php if($d['items']):?><div class="topic-grid" style="margin-top:55px"><?php foreach($d['items'] as [$title,$text]):?><article class="info-tile"><h3><?=e($title)?></h3><p><?=e($text)?></p></article><?php endforeach;?></div><?php endif;?><p style="margin-top:45px"><a class="button button--gold" href="ueber-thailand.php">Zum Thailand-Guide →</a></p></section>
+<?php require __DIR__.'/page-end.php';?>

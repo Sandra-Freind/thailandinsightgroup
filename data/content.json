@@ -32,13 +32,13 @@
         {
             "title": "Norden",
             "subtitle": "Natur & Abenteuer",
-            "image": "assets/img/region-north.jpg",
+            "image": "assets/img/north-premium.jpg",
             "href": "norden.php"
         },
         {
             "title": "Süden & Inseln",
             "subtitle": "Strände & Meer",
-            "image": "assets/img/region-south.jpg",
+            "image": "assets/img/south-premium.jpg",
             "href": "sueden-inseln.php"
         }
     ],
@@ -294,7 +294,7 @@
         "h2_2": "Sprache & Orientierung",
         "p_2": "Einfach verständliche Unterstützung für Situationen, in denen Sprache oder lokale Abläufe sonst kompliziert werden.",
         "h2_3": "Flexibel erweiterbar",
-        "p_3": "Texte, Bilder, Buttons und Links dieser Seite kannst du später im Admin-Panel anpassen. Das Grunddesign bleibt dabei gesperrt."
+        "p_3": "Sandra wird schrittweise um weitere Regionen, Funktionen und verlässliche lokale Informationen ergänzt."
     },
     "contact": {
         "title": "Kontakt",
@@ -328,13 +328,13 @@
         "title": "Impressum AGB Datenschutz",
         "toc": "1. Impressum\n2. AGB\n3. Datenschutz",
         "imprint_title": "Impressum",
-        "imprint_body": "Angaben gemäß den jeweils anwendbaren gesetzlichen Vorschriften. Die endgültigen Unternehmens-, Vertretungs- und Registrierungsdaten kannst du im Admin-Panel pflegen.",
+        "imprint_body": "Angaben gemäß den jeweils anwendbaren gesetzlichen Vorschriften. Die tatsächlichen Unternehmens- und Registrierungsdaten müssen vor der Veröffentlichung rechtlich geprüft werden.",
         "company": "Thailand Insight Group Co., Ltd.",
-        "address": "123 Sukhumvit Road\nBangkok 10110\nThailand",
+        "address": "Vollständige ladungsfähige Anschrift vor Veröffentlichung ergänzen.",
         "terms_title": "Allgemeine Geschäftsbedingungen",
         "terms_body": "Diese Website stellt Informationen und digitale Inhalte rund um Thailand bereit. Für kostenpflichtige E-Books und digitale Guides gelten die beim jeweiligen Produkt angegebenen Preise und Nutzungsbedingungen. Digitale Inhalte werden nach dem Kauf zum Download bereitgestellt. Ein Widerruf kann nach Beginn des Downloads digitaler Inhalte ausgeschlossen sein, sofern darauf vor dem Kauf hingewiesen wurde. Die endgültigen AGB sollten vor dem Live-Betrieb rechtlich geprüft und an das konkrete Unternehmen angepasst werden.",
         "privacy_title": "Datenschutz",
-        "privacy_body": "Personenbezogene Daten werden nur verarbeitet, soweit dies für den Betrieb der Website, die Bearbeitung von Kontaktanfragen oder die Bereitstellung gebuchter Leistungen erforderlich ist. Kontaktformular-Nachrichten werden auf dem Hosting-Server gespeichert und sind nur im geschützten Admin-Bereich einsehbar. Es kommen Session-Cookies für den Admin-Login zum Einsatz. Die endgültige Datenschutzerklärung muss an Hosting, E-Mail, Zahlungs- und Analysedienste angepasst werden."
+        "privacy_body": "Personenbezogene Daten werden nur verarbeitet, soweit dies für den Betrieb der Website, die Bearbeitung von Kontaktanfragen oder die Bereitstellung gebuchter Leistungen erforderlich ist. Kontaktformular-Nachrichten werden auf dem Hosting-Server gespeichert und dürfen nur durch autorisierte Betreiber eingesehen werden. Die endgültige Datenschutzerklärung muss vor Veröffentlichung an Hosting, E-Mail, Zahlungs- und Analysedienste angepasst und rechtlich geprüft werden."
     },
     "topics": {
         "bangkok": {
@@ -349,12 +349,12 @@
         },
         "norden": {
             "title": "Norden",
-            "image": "assets/img/region-north.jpg",
+            "image": "assets/img/north-premium.jpg",
             "text": "Berge, Natur, Kultur und traditionsreiche Städte machen den Norden zu einer besonderen Thailand-Region. Chiang Mai, Chiang Rai und die Berglandschaften eignen sich für Tempel, Märkte, Trekking und ein kühleres Klima in den Wintermonaten."
         },
         "sueden-inseln": {
             "title": "Süden & Inseln",
-            "image": "assets/img/region-south.jpg",
+            "image": "assets/img/south-premium.jpg",
             "text": "Tropische Inseln, Strände und die Küsten am Golf von Thailand und an der Andamanensee. Phuket, Koh Samui, Krabi und die kleineren Inseln stehen für Meer, Felsen, Schnorcheln und lange Abende am Strand."
         },
         "klima": {

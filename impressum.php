@@ -1,27 +1,4 @@
-<?php
-$activeNav = '';
-$pageTitle = 'Impressum AGB Datenschutz';
-$pageDescription = 'Impressum, AGB und Datenschutzerklärung der Thailand Insight Group.';
-require __DIR__ . '/includes/page-start.php';
-$l = $cms['legal'];
-?>
-<section class="legal-page">
-    <div class="eyebrow"><?= e($l['eyebrow']) ?></div>
-    <h1><?= e($l['title']) ?></h1>
-    <hr class="gold-line">
-    <p class="toc"><?= nl2br(e($l['toc'])) ?></p>
-
-    <h2 id="impressum"><?= e($l['imprint_title']) ?></h2>
-    <p><?= e($l['imprint_body']) ?></p>
-    <div class="address-box">
-        <div class="eyebrow">Address</div>
-        <p><strong><?= e($l['company']) ?></strong><br><?= nl2br(e($l['address'])) ?></p>
-    </div>
-
-    <h2 id="agb"><?= e($l['terms_title']) ?></h2>
-    <p><?= e($l['terms_body']) ?></p>
-
-    <h2 id="datenschutz"><?= e($l['privacy_title']) ?></h2>
-    <p><?= e($l['privacy_body']) ?></p>
-</section>
-<?php require __DIR__ . '/includes/page-end.php'; ?>
+<?php declare(strict_types=1);$activeNav='';$pageTitle='Impressum';$pageDescription='Anbieterkennzeichnung von Thailand Insight.';require __DIR__.'/includes/page-start.php';?>
+<section class="page-hero" style="min-height:460px"><img src="assets/img/hero-poster.jpg" alt="Thailand Insight"><div class="page-hero-copy"><p class="eyebrow">Rechtliches</p><h1>Impressum</h1><p>Informationen zum verantwortlichen Anbieter dieser Website.</p></div></section>
+<section class="section section--paper"><article class="content-prose"><h2>Anbieterkennzeichnung</h2><p><strong>Thailand Insight Group</strong></p><p>Verantwortlich für den Inhalt: Ralf Hans Pleines</p><p>E-Mail: <a class="text-link" href="mailto:<?=e($cms['site']['contact_email'])?>"><?=e($cms['site']['contact_email'])?></a></p><div class="notice"><strong>Vor öffentlicher Freischaltung erforderlich:</strong> Die vollständige ladungsfähige Anschrift, Rechtsform, Vertretungsangaben und – sofern vorhanden – Registrierungs- und Steuerdaten müssen mit den tatsächlichen Unternehmensdaten ergänzt und rechtlich geprüft werden. Die zuvor enthaltene Musteranschrift wurde bewusst entfernt.</div><h2>Haftung für Inhalte</h2><p>Die Inhalte dieser Website werden mit Sorgfalt erstellt. Reise-, Einreise-, Gesundheits- und Sicherheitshinweise können sich kurzfristig ändern und ersetzen keine Prüfung bei den zuständigen Behörden oder eine individuelle Beratung.</p><h2>Haftung für Links</h2><p>Diese Website enthält Verknüpfungen zu externen Angeboten. Für deren Inhalte sind ausschließlich die jeweiligen Betreiber verantwortlich.</p></article></section>
+<?php require __DIR__.'/includes/page-end.php';?>

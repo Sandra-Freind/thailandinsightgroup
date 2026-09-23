@@ -1,21 +1,6 @@
-<?php $activeNav = 'sandra'; $pageTitle = 'Sandra'; $pageDescription = 'Sandra – deine Begleiterin in Thailand.'; require __DIR__.'/includes/page-start.php'; $s = $cms['sandra']; ?>
-<section class="sandra-hero">
-    <img class="hero-photo" src="<?= e($s['hero_image']) ?>" alt="Sandra">
-    <div class="sandra-hero-copy">
-        <div class="eyebrow"><?= e($s['eyebrow']) ?></div>
-        <h1><?= e($s['title']) ?></h1>
-        <p><?= e($s['intro']) ?></p>
-        <p class="btn-row"><a class="gold-btn" href="<?= e($s['button_href']) ?>"><?= e($s['button']) ?></a></p>
-    </div>
-</section>
-<section class="sandra-body" id="sandra-info">
-    <h1><?= e($s['heading']) ?></h1>
-    <p><?= e($s['body']) ?></p>
-    <h2><?= e($s['h2_1']) ?></h2>
-    <p><?= e($s['p_1']) ?></p>
-    <h2><?= e($s['h2_2']) ?></h2>
-    <p><?= e($s['p_2']) ?></p>
-    <h2><?= e($s['h2_3']) ?></h2>
-    <p><?= e($s['p_3']) ?></p>
-</section>
-<?php require __DIR__.'/includes/page-end.php'; ?>
+<?php declare(strict_types=1);$activeNav='sandra';$pageTitle='Sandra – deine persönliche Begleiterin';$pageDescription='Sandra hilft Reisenden und Residenten in Pattaya mit wenigen passenden Vorschlägen und einem Audio-Dolmetscher.';require __DIR__.'/includes/page-start.php';?>
+<section class="page-hero"><img src="assets/img/sandra-hero-premium.jpg" alt="Sandra – persönliche Begleitung in Thailand"><div class="page-hero-copy"><p class="eyebrow">Weniger suchen. Besser ankommen.</p><h1>Sandra</h1><p>Deine persönliche Begleiterin für Pattaya und Umgebung. Warm, verständlich und konkret – wie eine gute Freundin, die sich vor Ort auskennt.</p><div class="button-row"><a class="button button--gold" href="#funktionen">Sandra entdecken →</a><a class="button button--ghost" href="kontakt.php">Interesse vormerken</a></div></div></section>
+<section class="section section--paper" id="funktionen"><div class="section-head"><div><p class="eyebrow">Hilfe, die nicht überfordert</p><h2>Höchstens drei Vorschläge. Dafür die richtigen.</h2></div><p>Sandra ist kein Unterhaltungs-Chatbot. Sie soll konkrete Anliegen verstehen, sinnvoll nachfragen und dir eine überschaubare Auswahl geben.</p></div><div class="value-grid"><article class="info-tile"><h3>Lokaler Finder</h3><p>Restaurants, Kliniken, Dienstleistungen, Ausflugsziele und praktische Anlaufstellen in deiner Nähe.</p></article><article class="info-tile"><h3>Audio-Dolmetscher</h3><p>Deutsch sprechen, thailändische Übersetzung hören – und umgekehrt. Getrennt von der normalen Suche.</p></article><article class="info-tile"><h3>Persönliche Begleitung</h3><p>Folgefragen, Standortbezug und Empfehlungen, die zu deiner Situation passen.</p></article></div></section>
+<section class="section section--ink"><div class="section-head"><div><p class="eyebrow">Sechs klar definierte Regionen</p><h2>Pattaya genauer gedacht</h2></div><p>Nicht jede Empfehlung ist von jedem Stadtteil aus sinnvoll. Sandra berücksichtigt Wege, Umgebung und den tatsächlichen Ort.</p></div><div class="topic-grid"><?php foreach(['Naklua'=>'Traditioneller, lokaler und nah am Norden der Stadt.','Wongamat'=>'Ruhigere Strandlage mit Hotels, Condos und Gastronomie.','Central Pattaya'=>'Einkaufen, Behörden, Verkehr und kurze Wege im Zentrum.','Pratumnak'=>'Zwischen Pattaya und Jomtien – Wohnlage mit eigenem Charakter.','Jomtien'=>'Strand, Langzeitaufenthalt und entspannterer Alltag.','Darkside / East Pattaya'=>'Wohngebiete, Familienalltag und Ziele östlich der Sukhumvit Road.'] as $region=>$text):?><article class="info-tile" style="background:#0b2527;border-color:rgba(213,173,85,.22)"><h3><?=e($region)?></h3><p style="color:rgba(255,255,255,.65)"><?=e($text)?></p></article><?php endforeach;?></div></section>
+<section class="story-split"><div><p class="eyebrow">Ein typischer Moment</p><h2>„Ich brauche jetzt einen guten Arzt in meiner Nähe.“</h2><p>Sandra fragt nach deinem Standort und deinem konkreten Anliegen. Danach bekommst du keine endlose Ergebnisliste, sondern zunächst bis zu drei nachvollziehbare Vorschläge.</p><a class="text-link" href="kontakt.php">Über den Start informiert werden →</a></div><figure><img src="assets/img/sandra-hero-premium.jpg" alt="Sandra unterstützt bei der Orientierung in Thailand" loading="lazy"></figure></section>
+<?php require __DIR__.'/includes/page-end.php';?>

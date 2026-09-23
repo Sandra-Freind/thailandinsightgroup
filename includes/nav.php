@@ -25,11 +25,11 @@ function site_menu(string $activeId = ''): array
 {
     $items = [
         ['id' => 'home', 'label' => 'Home', 'href' => 'index.php', 'icon' => 'home'],
+        ['id' => 'travel', 'label' => 'Thailand', 'href' => 'ueber-thailand.php', 'icon' => 'map'],
+        ['id' => 'destinations', 'label' => 'Reiseziele', 'href' => 'ueber-thailand.php#reiseziele', 'icon' => 'map'],
+        ['id' => 'news', 'label' => 'News', 'href' => 'news.php', 'icon' => 'news'],
         ['id' => 'ebooks', 'label' => 'E-Books', 'href' => 'ebooks.php', 'icon' => 'book'],
-        ['id' => 'news', 'label' => 'Neuigkeiten', 'href' => 'news.php', 'icon' => 'news'],
-        ['id' => 'travel', 'label' => 'Reiseführer', 'href' => 'ueber-thailand.php', 'icon' => 'map'],
         ['id' => 'sandra', 'label' => 'Sandra', 'href' => 'sandra-app.php', 'icon' => 'chat'],
-        ['id' => 'links', 'label' => 'Nützliche Links', 'href' => 'nuetzliche-links.php', 'icon' => 'link'],
         ['id' => 'about', 'label' => 'Über uns', 'href' => 'ueber-uns.php', 'icon' => 'info'],
         ['id' => 'contact', 'label' => 'Kontakt', 'href' => 'kontakt.php', 'icon' => 'mail'],
     ];

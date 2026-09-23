@@ -1,15 +1,6 @@
-<?php $activeNav = 'links'; $pageTitle = 'Nützliche Links'; require __DIR__.'/includes/page-start.php'; $l = $cms['links']; ?>
-<section class="simple-page">
-    <div class="eyebrow"><?= e($l['eyebrow']) ?></div>
-    <h1><?= e($l['title']) ?></h1>
-    <hr class="gold-line">
-    <p><?= e($l['body']) ?></p>
-    <h2><?= e($l['travel_heading']) ?></h2>
-    <p class="links-list"><a href="<?= e($l['tat_url']) ?>" target="_blank" rel="noopener"><?= e($l['tat_label']) ?></a></p>
-    <?php if (!empty($l['aa_url'])): ?>
-        <p class="links-list"><a href="<?= e($l['aa_url']) ?>" target="_blank" rel="noopener"><?= e($l['aa_label']) ?></a></p>
-    <?php endif; ?>
-    <h2><?= e($l['weather_heading']) ?></h2>
-    <p class="links-list"><a href="<?= e($l['tmd_url']) ?>" target="_blank" rel="noopener"><?= e($l['tmd_label']) ?></a></p>
-</section>
-<?php require __DIR__.'/includes/page-end.php'; ?>
+<?php declare(strict_types=1);$activeNav='';$pageTitle='Nützliche Links für Thailand';$pageDescription='Offizielle und praktische Anlaufstellen für Reise, Wetter, Gesundheit und Aufenthalt in Thailand.';require __DIR__.'/includes/page-start.php';
+$groups=['Reise & Einreise'=>[['Tourism Authority of Thailand','https://www.tourismthailand.org/','Offizielle Reiseinformationen und Inspiration.'],['Auswärtiges Amt – Thailand','https://www.auswaertiges-amt.de/de/service/laender/thailand-node','Aktuelle Reise- und Sicherheitshinweise.'],['Thai Immigration Bureau','https://www.immigration.go.th/','Offizielle Informationen der thailändischen Einwanderungsbehörde.']],'Wetter & Notfall'=>[['Thai Meteorological Department','https://www.tmd.go.th/','Wettervorhersagen und Warnmeldungen.'],['Tourist Police Thailand','https://www.touristpolice.go.th/','Touristenpolizei, Notruf 1155.'],['Emergency Medical Services','tel:1669','Medizinischer Notruf in Thailand: 1669.']],'Unterwegs'=>[['Airports of Thailand','https://www.airportthai.co.th/','Informationen zu den wichtigsten Flughäfen.'],['State Railway of Thailand','https://www.railway.co.th/','Offizielle Informationen zum Bahnverkehr.'],['Bangkok Mass Transit System','https://www.bts.co.th/','BTS Skytrain in Bangkok.']]];
+?>
+<section class="page-hero"><img src="assets/img/topic-airport.jpg" alt="Unterwegs in Thailand"><div class="page-hero-copy"><p class="eyebrow">Geprüfte Anlaufstellen</p><h1>Nützliche Links</h1><p>Direkte Wege zu offiziellen Stellen und praktischen Informationen – ohne Umwege durch zweifelhafte Portale.</p></div></section>
+<section class="section section--paper"><?php foreach($groups as $heading=>$items):?><div class="section-head" style="margin-top:35px"><h2><?=e($heading)?></h2></div><div class="link-grid"><?php foreach($items as [$label,$url,$text]):?><article class="info-tile"><h3><?=e($label)?></h3><p><?=e($text)?></p><a href="<?=e($url)?>" <?=str_starts_with($url,'http')?'target="_blank" rel="noopener"':''?>>Offizielle Seite öffnen ↗</a></article><?php endforeach;?></div><?php endforeach;?></section>
+<?php require __DIR__.'/includes/page-end.php';?>
