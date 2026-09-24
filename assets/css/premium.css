@@ -15,3 +15,23 @@ body:not(:has(.home-reference)){background:var(--ref-paper)}body:not(:has(.home-
 @media(min-width:1600px){.reference-hero__copy{left:5.25vw}.reference-experience__copy{padding-left:5.45vw}}
 @media(max-width:1100px){.header-search{display:none}.reference-hero{height:610px}.reference-hero__copy{top:155px;width:min(650px,88vw)}.reference-middle{height:auto;grid-template-columns:1fr}.reference-experience{min-height:300px}.reference-destinations{min-height:300px;padding:28px}.reference-bottom{height:auto;grid-template-columns:1fr 1fr}.reference-bottom>article{min-height:240px}.reference-story{grid-column:1/-1}.home-reference~.site-footer{display:grid}}
 @media(max-width:720px){.site-header{height:72px;min-height:72px}.site-brand span{display:block}.reference-hero{height:690px}.reference-hero__copy{left:22px;right:22px;top:150px;width:auto}.reference-hero h1{font-size:49px}.reference-hero__copy>p:not(.reference-kicker){font-size:16px}.reference-video{right:22px;bottom:20px}.reference-middle,.reference-bottom{display:block}.reference-experience{display:block;min-height:520px}.reference-experience__copy{padding:38px 24px}.reference-experience>img{position:absolute;left:0;right:0;bottom:0;height:240px}.reference-experience:after{display:none}.reference-destinations{padding:36px 20px}.reference-heading{display:block}.reference-destination-grid{height:auto;grid-template-columns:1fr}.reference-destination-grid>a{height:220px}.reference-bottom>article{min-height:320px;border-bottom:1px solid rgba(255,255,255,.14)}.reference-ebooks{padding:34px 24px}.reference-sandra{grid-template-columns:45% 55%}.reference-story{padding:38px 125px 28px 24px}.reference-story>img{top:34px}.reference-actions{display:grid;width:260px}.page-hero{min-height:590px}.page-hero h1{font-size:56px}}
+
+/* ===== SHARPNESS & COLOR QUALITY PASS ===== */
+html{font-synthesis:none;text-rendering:optimizeLegibility}
+body{-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto;font-family:"Segoe UI",Arial,sans-serif;color:#15211f}
+h1,h2,h3,.site-brand strong,.site-nav a,.reference-hero h1,.reference-middle h2,.reference-bottom h2,.page-hero h1,.section-head h2,.content-prose h2,.info-tile h3,.ebook-card h2,.news-card h3{font-family:Georgia,"Times New Roman",serif;font-weight:700;text-shadow:none!important;-webkit-font-smoothing:auto}
+p,a,span,small,b,strong,li,label,input,textarea,button{ text-shadow:none!important}
+.site-header.is-scrolled{backdrop-filter:none}
+.reference-hero h1{font-weight:700;letter-spacing:-.018em}
+.reference-hero__copy>p:not(.reference-kicker),.reference-experience p:not(.reference-kicker),.reference-bottom p:not(.reference-kicker),.page-hero p,.content-prose>p{font-family:Georgia,"Times New Roman",serif;font-weight:400}
+.reference-kicker,.eyebrow{font-family:"Segoe UI",Arial,sans-serif;font-weight:700}
+.page-hero>img,.ebook-card img,.reference-destination-grid img,.destination-card img,.news-card img,.story-split img,.product-visual img{filter:none!important;opacity:1;image-rendering:auto}
+.page-hero-copy p,.section-head p,.info-tile p,.ebook-card p,.site-footer p{opacity:1}
+.page-hero p{color:#fff}
+.reference-destination-grid small{font-size:10px;font-weight:600;opacity:1}
+.content-prose>p{color:#303b38}
+.info-tile p,.ebook-card p{color:#46514e}
+.page-hero:after{background:linear-gradient(90deg,rgba(1,16,19,.86) 0%,rgba(1,16,19,.50) 43%,rgba(1,16,19,.05) 80%),linear-gradient(0deg,rgba(1,16,19,.50),transparent 48%)}
+.reference-hero__media{background:#071719 url("../img/hero-poster.jpg") center/cover no-repeat}
+.reference-hero__media video{opacity:0;transition:opacity .35s ease}
+.reference-hero__media.is-playing video{opacity:1}

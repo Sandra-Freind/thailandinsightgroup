@@ -17,7 +17,7 @@ function cms_defaults(): array
         'travel' => [
             'title' => 'Reiseziele',
             'intro' => 'Entdecken Sie die Vielfalt Thailands – von pulsierenden Städten über atemberaubende Natur bis hin zu tropischen Inseln.',
-            'hero_image' => 'assets/img/travel-hero-bangkok.jpg',
+            'hero_image' => 'assets/img/hero-poster.jpg',
             'tat_logo' => 'assets/img/tat-logo.png',
             'section_title' => 'Beliebte Reiseziele',
             'info_title' => 'Reiseinformationen',
@@ -28,8 +28,8 @@ function cms_defaults(): array
             'notice' => 'Aktuelle Einreise- und Sicherheitshinweise erhalten Sie auf den Websites des Auswärtigen Amts und Ihrer Reiseversicherung.',
         ],
         'travel_cards' => [
-            ['title' => 'Bangkok', 'subtitle' => 'Zentralthailand', 'image' => 'assets/img/region-bangkok.jpg', 'href' => 'bangkok.php'],
-            ['title' => 'Zentralthailand', 'subtitle' => 'Geschichte & Kultur', 'image' => 'assets/img/region-central.jpg', 'href' => 'zentralthailand.php'],
+            ['title' => 'Bangkok', 'subtitle' => 'Zentralthailand', 'image' => 'assets/img/hero-poster.jpg', 'href' => 'bangkok.php'],
+            ['title' => 'Zentralthailand', 'subtitle' => 'Geschichte & Kultur', 'image' => 'assets/img/ebook-hero-city.jpg', 'href' => 'zentralthailand.php'],
             ['title' => 'Norden', 'subtitle' => 'Natur & Abenteuer', 'image' => 'assets/img/north-premium.jpg', 'href' => 'norden.php'],
             ['title' => 'Süden & Inseln', 'subtitle' => 'Strände & Meer', 'image' => 'assets/img/south-premium.jpg', 'href' => 'sueden-inseln.php'],
         ],
