@@ -38,3 +38,6 @@ p,a,span,small,b,strong,li,label,input,textarea,button{ text-shadow:none!importa
 
 /* Bright nature hero on the Thailand page; keep the landscape visible. */
 .page-hero--bright:after{background:linear-gradient(90deg,rgba(1,23,15,.62) 0%,rgba(1,23,15,.30) 29%,rgba(1,23,15,0) 64%),linear-gradient(0deg,rgba(1,23,15,.12),transparent 26%)}
+
+/* Keep the Thailand coast visible behind the ebook headings and covers. */
+.page-hero--ebooks-bright:after{background:linear-gradient(90deg,rgba(2,22,25,.39) 0%,rgba(2,22,25,.22) 31%,transparent 55%),linear-gradient(0deg,rgba(2,22,25,.13),transparent 30%)}
