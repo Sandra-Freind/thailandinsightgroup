@@ -19,7 +19,7 @@ $menuItems=site_menu($activeNav);
 <link rel="icon" href="assets/img/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/premium.css?v=3">
+<link rel="stylesheet" href="assets/css/premium.css?v=4">
 </head><body class="site-body">
 <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
 <header class="site-header" data-site-header>
