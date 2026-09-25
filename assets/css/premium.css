@@ -35,3 +35,6 @@ p,a,span,small,b,strong,li,label,input,textarea,button{ text-shadow:none!importa
 .reference-hero__media{background:#071719 url("../img/hero-poster.jpg") center/cover no-repeat}
 .reference-hero__media video{opacity:0;transition:opacity .35s ease}
 .reference-hero__media.is-playing video{opacity:1}
+
+/* Bright nature hero on the Thailand page; keep the landscape visible. */
+.page-hero--bright:after{background:linear-gradient(90deg,rgba(1,23,15,.62) 0%,rgba(1,23,15,.30) 29%,rgba(1,23,15,0) 64%),linear-gradient(0deg,rgba(1,23,15,.12),transparent 26%)}
