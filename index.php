@@ -10,7 +10,7 @@ require __DIR__.'/includes/page-start.php';
 ?>
 <div class="home-reference">
 <section class="reference-hero" aria-label="Thailand Insight">
-  <div class="reference-hero__media"><video data-hero-video autoplay muted loop playsinline preload="metadata" poster="assets/img/hero-poster.jpg"><source src="assets/video/hero-felsen-vollstaendig.mp4" type="video/mp4"></video></div>
+  <div class="reference-hero__media"><video data-hero-video autoplay muted loop playsinline preload="metadata" poster="assets/img/hero-poster.jpg"><source src="assets/video/hero-felsen-mit-abstand.mp4" type="video/mp4"></video></div>
   <div class="reference-hero__copy"><p class="reference-kicker">Mehr als ein Reiseziel</p><h1>Thailand beginnt dort,<br>wo Reiseführer aufhören.</h1><p>Echte Einblicke. Persönliche Erfahrungen. Praktische Tipps.<br>Für alle, die Thailand nicht nur besuchen, sondern wirklich verstehen wollen.</p><div class="reference-actions"><a class="reference-button reference-button--gold" href="ueber-thailand.php">Thailand entdecken <span>→</span></a><a class="reference-button reference-button--outline" href="ebooks.php">Unsere E-Books <span>→</span></a></div></div>
   <button class="reference-video" type="button" data-sound-toggle aria-label="Hero-Video mit Ton abspielen"><i>▶</i><span>Video ansehen<small>Thailand spüren</small></span></button>
 </section>
