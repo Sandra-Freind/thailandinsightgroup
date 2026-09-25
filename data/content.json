@@ -96,7 +96,7 @@
                 "Gesundheit, Impfung, die Klinik um die Ecke"
             ],
             "meta": "38 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/cover-ankommen.jpg",
+            "cover": "assets/img/cover-ankommen-neu.svg",
             "page": "ebook-ankommen.php",
             "pdf": "assets/ebooks/ankommen-in-thailand.pdf"
         },
@@ -114,7 +114,7 @@
                 "Langfristig bleiben, ohne sich zu verlaufen"
             ],
             "meta": "42 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/cover-dach.jpg",
+            "cover": "assets/img/cover-dach-neu.svg",
             "page": "ebook-dach.php",
             "pdf": "assets/ebooks/dach-thailand.pdf"
         },
@@ -132,7 +132,7 @@
                 "Ein Alltag, der nicht peinlich ist"
             ],
             "meta": "36 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/cover-farang.jpg",
+            "cover": "assets/img/cover-farang-neu.svg",
             "page": "ebook-farang.php",
             "pdf": "assets/ebooks/leben-als-farang.pdf"
         },
@@ -150,7 +150,7 @@
                 "Allein unterwegs und trotzdem gehalten"
             ],
             "meta": "40 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/cover-sandra.jpg",
+            "cover": "assets/img/cover-sandra-neu.svg",
             "page": "ebook-sandra.php",
             "pdf": "assets/ebooks/mit-sandra-unterwegs.pdf"
         },
@@ -168,7 +168,7 @@
                 "Bleiben oder weiterziehen"
             ],
             "meta": "34 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/radar-meetup.jpg",
+            "cover": "assets/img/cover-pattaya-neu.svg",
             "page": "ebook-pattaya.php",
             "pdf": "assets/ebooks/pattaya-ohne-filter.pdf"
         },
@@ -186,7 +186,7 @@
                 "So planst du eine Reise um die Feste herum"
             ],
             "meta": "32 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/radar-songkran.jpg",
+            "cover": "assets/img/cover-feste-neu.svg",
             "page": "ebook-feste.php",
             "pdf": "assets/ebooks/thai-feste.pdf"
         },
@@ -204,7 +204,7 @@
                 "Zehn Gerichte, die du können musst"
             ],
             "meta": "30 Seiten · PDF · Thailand Insight",
-            "cover": "assets/img/radar-nachtmarkt.jpg",
+            "cover": "assets/img/cover-streetfood-neu.svg",
             "page": "ebook-streetfood.php",
             "pdf": "assets/ebooks/streetfood-thailand.pdf"
         }
