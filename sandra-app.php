@@ -59,10 +59,10 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 
 /* Local motion follows the artwork coordinates; text and Sandra stay static. */
 .sandra-hero-motion{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:hidden}
-.sandra-hero-motion__light{fill:#ffe4a1;opacity:.25;animation:sandra-lamp-glow 6s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
-.sandra-hero-motion__light:nth-of-type(3n){animation-duration:8s;animation-delay:-3s}
-.sandra-hero-motion__light:nth-of-type(3n + 1){animation-duration:7s;animation-delay:-5s}
-@keyframes sandra-lamp-glow{0%{opacity:.1;transform:scale(.8)}100%{opacity:.55;transform:scale(1.25)}}
+.sandra-hero-motion__light{fill:#ffe4a1;opacity:.25;animation:sandra-lamp-glow 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+.sandra-hero-motion__light:nth-of-type(3n){animation-duration:4.5s;animation-delay:-3s}
+.sandra-hero-motion__light:nth-of-type(3n + 1){animation-duration:3.8s;animation-delay:-5s}
+@keyframes sandra-lamp-glow{0%{opacity:.08;transform:scale(.7)}100%{opacity:1;transform:scale(1.35)}}
 @media(prefers-reduced-motion:reduce){.sandra-hero-motion{display:none}}
 </style>
 <section class="sandra-campaign-hero" aria-label="Sandra – deine persönliche Begleiterin für Urlaub und Alltag in Thailand">
@@ -73,38 +73,38 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 <defs>
 <clipPath id="sandra-water-area"><path d="M865 454L1160 454L1155 504L1138 545L1147 600L1170 642L1040 682L923 694L929 650L879 628L873 610L847 601L850 566Z M1695 488L1765 493L1831 523L1840 548L1787 575L1731 595L1694 594Z"/></clipPath>
 <filter id="sandra-water-ripple" x="-2%" y="-2%" width="104%" height="104%" color-interpolation-filters="sRGB">
-<feTurbulence type="fractalNoise" baseFrequency=".012 .08" numOctaves="1" seed="8" result="water-noise"/>
-<feDisplacementMap in="SourceGraphic" in2="water-noise" scale="1.5" xChannelSelector="R" yChannelSelector="G"><animate attributeName="scale" values="0.4;2.2;0.4" dur="7s" repeatCount="indefinite"/></feDisplacementMap>
+<feTurbulence type="fractalNoise" baseFrequency=".012 .06" numOctaves="1" seed="8" result="water-noise"><animate attributeName="baseFrequency" values=".012 .06;.018 .085;.012 .06" dur="5s" repeatCount="indefinite"/></feTurbulence>
+<feDisplacementMap in="SourceGraphic" in2="water-noise" scale="10" xChannelSelector="R" yChannelSelector="G"><animate attributeName="scale" values="4;14;4" dur="5s" repeatCount="indefinite"/></feDisplacementMap>
 </filter>
-<radialGradient id="sandra-lamp-halo"><stop stop-color="#fff8d7" stop-opacity=".7"/><stop offset="1" stop-color="#ffb34d" stop-opacity="0"/></radialGradient>
+<radialGradient id="sandra-lamp-halo"><stop stop-color="#fff8d7" stop-opacity="1"/><stop offset="1" stop-color="#ffb34d" stop-opacity="0"/></radialGradient>
 </defs>
 <g clip-path="url(#sandra-water-area)"><image href="assets/img/sandra-hero-refined.webp" width="1983" height="793" filter="url(#sandra-water-ripple)"/></g>
-<circle class="sandra-hero-motion__light" cx="797" cy="430" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="892" cy="431" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="947" cy="429" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1002" cy="432" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1032" cy="412" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1074" cy="413" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1110" cy="427" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1150" cy="336" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1648" cy="275" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1646" cy="265" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1690" cy="349" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1747" cy="354" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1771" cy="361" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1815" cy="362" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1852" cy="434" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1832" cy="447" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1849" cy="461" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1872" cy="476" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1894" cy="482" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1917" cy="491" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1934" cy="499" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1950" cy="502" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1965" cy="484" r="6" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1170" cy="665" r="9" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1159" cy="678" r="9" style="fill:url(#sandra-lamp-halo)"/>
-<circle class="sandra-hero-motion__light" cx="1066" cy="726" r="9" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="797" cy="430" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="892" cy="431" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="947" cy="429" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1002" cy="432" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1032" cy="412" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1074" cy="413" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1110" cy="427" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1150" cy="336" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1648" cy="275" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1646" cy="265" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1690" cy="349" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1747" cy="354" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1771" cy="361" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1815" cy="362" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1852" cy="434" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1832" cy="447" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1849" cy="461" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1872" cy="476" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1894" cy="482" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1917" cy="491" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1934" cy="499" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1950" cy="502" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1965" cy="484" r="12" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1170" cy="665" r="16" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1159" cy="678" r="16" style="fill:url(#sandra-lamp-halo)"/>
+<circle class="sandra-hero-motion__light" cx="1066" cy="726" r="16" style="fill:url(#sandra-lamp-halo)"/>
 </svg>
 <img class="sandra-campaign-hero__logo" src="assets/img/logo-sidebar.png" alt="Thailand Insight Group">
 </section>
