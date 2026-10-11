@@ -9,7 +9,7 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 </style>
 <section class="sandra-campaign-hero" aria-label="Sandra – deine persönliche Begleiterin für Urlaub und Alltag in Thailand">
 <a class="sandra-campaign-hero__link" href="#funktionen" aria-label="Sandra entdecken: Orte finden, Deutsch und Thai mit Stimme übersetzen und Hilfe im Alltag erhalten">
-<img class="sandra-campaign-hero__image" src="assets/img/sandra-hero-campaign.webp" width="1672" height="941" fetchpriority="high" alt="Mehr Thailand. Weniger Fragen. Deine Sandra. Deine persönliche Begleiterin für Urlaub und Alltag. Finde Orte, die zu dir passen. Übersetze Deutsch und Thai mit Stimme. Erhalte Hilfe und Tipps für deinen Alltag. Du fragst. Sandra hilft.">
+<img class="sandra-campaign-hero__image" src="assets/img/sandra-hero-refined.webp" width="1983" height="793" fetchpriority="high" alt="Mehr Thailand. Weniger Fragen. Deine Sandra. Deine persönliche Begleiterin für Urlaub und Alltag. Finde Orte, die zu dir passen. Übersetze Deutsch und Thai mit Stimme. Erhalte Hilfe und Tipps für deinen Alltag. Du fragst. Sandra hilft.">
 </a>
 <img class="sandra-campaign-hero__logo" src="assets/img/logo-sidebar.png" alt="Thailand Insight Group">
 </section>
