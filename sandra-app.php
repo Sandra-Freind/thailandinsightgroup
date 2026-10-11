@@ -6,6 +6,46 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 .sandra-campaign-hero__link{display:block}
 .sandra-campaign-hero__image{display:block;width:100%;height:auto}
 .sandra-campaign-hero__logo{position:absolute;top:2%;right:2%;width:clamp(42px,5vw,84px);height:auto;filter:drop-shadow(0 2px 5px rgba(0,0,0,.65));pointer-events:none}
+
+/* Full-width Sandra explanation, same panoramic height as the hero. */
+#funktionen.sandra-experience{container-type:inline-size;display:grid;grid-template-columns:56% 44%;aspect-ratio:1983/793;padding:0;gap:0;align-items:stretch;background:#043354 url("assets/img/sandra-experience.webp") center/cover no-repeat;color:#fff}
+.sandra-experience__copy{padding:2.2cqw 0 2cqw 5.8cqw;align-self:center}
+.sandra-experience__eyebrow{margin:0 0 .6cqw;color:#35e1ec;font-size:.72cqw;line-height:1.3;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+#funktionen .sandra-experience__copy h2{margin:0;font:600 2.65cqw/1.06 "Segoe UI",Arial,sans-serif;letter-spacing:-.025em}
+.sandra-experience__copy h2 span{color:#35e1ec}
+.sandra-experience__lead{margin:.75cqw 0 .6cqw;font-size:1.3cqw;line-height:1.25}
+.sandra-experience__intro{margin:0 0 .8cqw;max-width:47cqw;font-size:.9cqw;line-height:1.5}
+.sandra-experience__features article{display:flex;gap:1.5cqw;padding:.75cqw 0;border-bottom:1px solid rgba(167,229,240,.4);max-width:45cqw}
+.sandra-experience__features article:last-child{border-bottom:0}
+.sandra-experience__features svg{flex:0 0 2.3cqw;width:2.3cqw;height:2.3cqw;margin-top:.25cqw;stroke:#35e1ec;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+#funktionen .sandra-experience__features h3{margin:0 0 .25cqw;font:600 1.1cqw/1.3 "Segoe UI",Arial,sans-serif}
+.sandra-experience__features p{margin:0;font-size:.88cqw;line-height:1.45;color:#f2f8ff}
+.sandra-experience__action{display:flex;align-items:center;gap:1.5cqw;margin-top:.9cqw}
+.sandra-experience__action a{display:inline-flex;gap:1.8cqw;align-items:center;background:#ff665b;color:#fff;border-radius:99px;padding:.65cqw 1.6cqw;font-size:1cqw;font-weight:600}
+.sandra-experience__action a:hover{background:#ed5048}
+.sandra-experience__action p{margin:0;padding-left:1.5cqw;border-left:1px solid rgba(255,255,255,.4);font-size:.8cqw;line-height:1.4}
+.sandra-experience__video{margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.7cqw;padding:1.8cqw 9cqw 1.8cqw 2cqw;min-height:0}
+.sandra-experience__video video{height:32cqw;width:auto;max-width:100%;aspect-ratio:464/688;object-fit:contain;background:#071b29;border:2px solid rgba(255,255,255,.9);border-radius:.8cqw;box-shadow:0 16px 40px rgba(0,20,35,.35)}
+.sandra-experience__video figcaption{text-align:center;font-size:1.1cqw;font-weight:600;text-shadow:0 1px 5px #002e49!important}
+@media(max-width:760px){
+#funktionen.sandra-experience{aspect-ratio:auto;grid-template-columns:1fr;background-position:65% center}
+.sandra-experience__copy{padding:30px 24px;background:rgba(1,32,57,.9)}
+.sandra-experience__eyebrow{font-size:10px;margin-bottom:10px}
+#funktionen .sandra-experience__copy h2{font-size:32px}
+.sandra-experience__lead{font-size:18px;margin:14px 0 10px}
+.sandra-experience__intro{font-size:14px;max-width:none;margin-bottom:14px}
+.sandra-experience__features article{max-width:none;gap:14px;padding:14px 0}
+.sandra-experience__features svg{flex-basis:28px;width:28px;height:28px}
+#funktionen .sandra-experience__features h3{font-size:16px;margin-bottom:6px}
+.sandra-experience__features p{font-size:14px}
+.sandra-experience__action{gap:15px;margin-top:18px;flex-wrap:wrap}
+.sandra-experience__action a{font-size:14px;padding:12px 20px;gap:20px}
+.sandra-experience__action p{font-size:12px;padding-left:14px}
+.sandra-experience__video{padding:28px 24px;gap:12px}
+.sandra-experience__video video{width:min(100%,280px);height:auto;border-radius:12px}
+.sandra-experience__video figcaption{font-size:16px}
+}
+
 </style>
 <section class="sandra-campaign-hero" aria-label="Sandra – deine persönliche Begleiterin für Urlaub und Alltag in Thailand">
 <a class="sandra-campaign-hero__link" href="#funktionen" aria-label="Sandra entdecken: Orte finden, Deutsch und Thai mit Stimme übersetzen und Hilfe im Alltag erhalten">
@@ -13,7 +53,24 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 </a>
 <img class="sandra-campaign-hero__logo" src="assets/img/logo-sidebar.png" alt="Thailand Insight Group">
 </section>
-<section class="section section--paper" id="funktionen"><div class="section-head"><div><p class="eyebrow">Hilfe, die nicht überfordert</p><h2>Höchstens drei Vorschläge. Dafür die richtigen.</h2></div><p>Sandra ist kein Unterhaltungs-Chatbot. Sie soll konkrete Anliegen verstehen, sinnvoll nachfragen und dir eine überschaubare Auswahl geben.</p></div><div class="value-grid"><article class="info-tile"><h3>Lokaler Finder</h3><p>Restaurants, Kliniken, Dienstleistungen, Ausflugsziele und praktische Anlaufstellen in deiner Nähe.</p></article><article class="info-tile"><h3>Audio-Dolmetscher</h3><p>Deutsch sprechen, thailändische Übersetzung hören – und umgekehrt. Getrennt von der normalen Suche.</p></article><article class="info-tile"><h3>Persönliche Begleitung</h3><p>Folgefragen, Standortbezug und Empfehlungen, die zu deiner Situation passen.</p></article></div><div class="funktionen-stage"><video controls playsinline preload="metadata" poster="assets/video/sandra-comic-szene-fertig-poster.jpg" aria-label="Comic: Sandra hilft bei der Orientierung in Pattaya"><source src="assets/video/sandra-comic-szene-fertig.mp4" type="video/mp4"></video></div></section>
+<section id="funktionen" class="sandra-experience" aria-labelledby="sandra-experience-title">
+<div class="sandra-experience__copy">
+<p class="sandra-experience__eyebrow">Dein Thailand. Deine Begleiterin.</p>
+<h2 id="sandra-experience-title">Weniger suchen.<br><span>Mehr verstehen.</span></h2>
+<p class="sandra-experience__lead">Sandra hilft dir, dich in Thailand zurechtzufinden.</p>
+<p class="sandra-experience__intro">Ob im Urlaub oder im Alltag: Frag Sandra per Text oder Sprache. Sie hilft dir, passende Orte zu finden, dich zu verständigen und den nächsten Schritt zu planen.</p>
+<div class="sandra-experience__features">
+<article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><div><h3>Finde, was du wirklich brauchst.</h3><p>Ärzte, Restaurants, Dienstleistungen oder Ausflüge: Sandra fragt nach deinem Anliegen und deinem Standort und nennt dir bis zu drei passende Vorschläge.</p></div></article>
+<article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h15v12H8l-5 4V3Zm6 16h9l4 3V9h-1"/></svg><div><h3>Verständige dich auf Deutsch und Thai.</h3><p>Sprich in deiner Sprache und höre die Übersetzung. Der Dolmetscher funktioniert in beide Richtungen – mit Spracheingabe und Sprachausgabe.</p></div></article>
+<article><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M4 22v-3a8 8 0 0 1 16 0v3H4Z"/></svg><div><h3>Bekomme Hilfe, die zu dir passt.</h3><p>Sandra fragt nach, berücksichtigt deine Situation und gibt dir praktische Tipps für deinen Aufenthalt. Wie eine gute Freundin, die mitdenkt.</p></div></article>
+</div>
+<div class="sandra-experience__action"><a href="kontakt.php">Lerne Sandra kennen <span aria-hidden="true">→</span></a><p>Für Urlauber und Menschen,<br>die hier leben.</p></div>
+</div>
+<figure class="sandra-experience__video">
+<video controls playsinline preload="metadata" poster="assets/video/sandra-comic-szene-fertig-poster.jpg" aria-label="Sandra im Alltag – Erklärvideo"><source src="assets/video/sandra-comic-szene-fertig.mp4" type="video/mp4"></video>
+<figcaption>Sieh dir an, wie Sandra hilft.</figcaption>
+</figure>
+</section>
 <section class="section section--ink"><div class="section-head"><div><p class="eyebrow">Sechs klar definierte Regionen</p><h2>Pattaya genauer gedacht</h2></div><p>Nicht jede Empfehlung ist von jedem Stadtteil aus sinnvoll. Sandra berücksichtigt Wege, Umgebung und den tatsächlichen Ort.</p></div><div class="topic-grid"><?php foreach(['Naklua'=>'Traditioneller, lokaler und nah am Norden der Stadt.','Wongamat'=>'Ruhigere Strandlage mit Hotels, Condos und Gastronomie.','Central Pattaya'=>'Einkaufen, Behörden, Verkehr und kurze Wege im Zentrum.','Pratumnak'=>'Zwischen Pattaya und Jomtien – Wohnlage mit eigenem Charakter.','Jomtien'=>'Strand, Langzeitaufenthalt und entspannterer Alltag.','Darkside / East Pattaya'=>'Wohngebiete, Familienalltag und Ziele östlich der Sukhumvit Road.'] as $region=>$text):?><article class="info-tile" style="background:#0b2527;border-color:rgba(213,173,85,.22)"><h3><?=e($region)?></h3><p style="color:rgba(255,255,255,.65)"><?=e($text)?></p></article><?php endforeach;?></div></section>
 <section class="story-split"><div><p class="eyebrow">Ein typischer Moment</p><h2>„Ich brauche jetzt einen guten Arzt in meiner Nähe.“</h2><p>Sandra fragt nach deinem Standort und deinem konkreten Anliegen. Danach bekommst du keine endlose Ergebnisliste, sondern zunächst bis zu drei nachvollziehbare Vorschläge.</p><a class="text-link" href="kontakt.php">Über den Start informiert werden →</a></div><figure><img src="assets/img/sandra-hero-premium.jpg" alt="Sandra unterstützt bei der Orientierung in Thailand" loading="lazy"></figure></section>
 <?php require __DIR__.'/includes/page-end.php';?>
