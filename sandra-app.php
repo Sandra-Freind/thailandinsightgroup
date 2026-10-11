@@ -51,6 +51,11 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 .sandra-regions-art__cta{position:absolute;left:70.8%;top:84.6%;width:19%;height:8.5%;border-radius:99px}
 .sandra-regions-art__cta:hover{background:rgba(255,255,255,.12)}
 .sandra-regions-art__cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.sandra-nightmarket{position:relative;width:100%;aspect-ratio:1983/793;background:#052343;overflow:hidden}
+.sandra-nightmarket>img{display:block;width:100%;height:auto}
+.sandra-nightmarket__cta{position:absolute;left:55.2%;top:51.6%;width:21.4%;height:6.8%;border-radius:99px}
+.sandra-nightmarket__cta:hover{background:rgba(255,255,255,.12)}
+.sandra-nightmarket__cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
 </style>
 <section class="sandra-campaign-hero" aria-label="Sandra – deine persönliche Begleiterin für Urlaub und Alltag in Thailand">
 <a class="sandra-campaign-hero__link" href="#funktionen" aria-label="Sandra entdecken: Orte finden, Deutsch und Thai mit Stimme übersetzen und Hilfe im Alltag erhalten">
@@ -80,5 +85,8 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 <img src="assets/img/sandra-pattaya-regions.webp" width="1983" height="793" loading="lazy" alt="Stilisierte Pattaya-Übersicht mit Naklua, Wongamat, Central Pattaya, Pratumnak, Jomtien und Darkside / East Pattaya. Wo du bist, macht den Unterschied. Sandra berücksichtigt dein Gebiet und fragt nach, was dir wichtig ist. Gesprächsbeispiel: Du suchst ein Restaurant am Meer; Sandra fragt nach deinem Gebiet, zum Beispiel Jomtien oder Wongamat. Du antwortest: In Jomtien, möglichst ruhig. So bekommst du bis zu drei passende Vorschläge für deine Umgebung.">
 <a class="sandra-regions-art__cta" href="kontakt.php" aria-label="Entdecke deine Sandra"></a>
 </section>
-<section class="story-split"><div><p class="eyebrow">Ein typischer Moment</p><h2>„Ich brauche jetzt einen guten Arzt in meiner Nähe.“</h2><p>Sandra fragt nach deinem Standort und deinem konkreten Anliegen. Danach bekommst du keine endlose Ergebnisliste, sondern zunächst bis zu drei nachvollziehbare Vorschläge.</p><a class="text-link" href="kontakt.php">Über den Start informiert werden →</a></div><figure><img src="assets/img/sandra-hero-premium.jpg" alt="Sandra unterstützt bei der Orientierung in Thailand" loading="lazy"></figure></section>
+<section id="sandra-dolmetscher" class="sandra-nightmarket" aria-label="Mit Sandra auf Deutsch und Thai verständigen">
+<img src="assets/img/sandra-nightmarket-translator.webp" width="1983" height="793" loading="lazy" alt="Ein Paar bestellt am leuchtenden thailändischen Nachtmarkt. Deutsch und Thai. Bestell dein Lieblingsessen. Auch ohne Thai. Du möchtest nach Zutaten fragen oder ohne Chili bestellen? Sprich deine Frage auf Deutsch – Sandra übersetzt ins Thai und liest sie vor. Deutsch ins Thai. Thai ins Deutsche.">
+<a class="sandra-nightmarket__cta" href="kontakt.php" aria-label="Über den Start informiert werden"></a>
+</section>
 <?php require __DIR__.'/includes/page-end.php';?>
