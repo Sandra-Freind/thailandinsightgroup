@@ -8,7 +8,7 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 .sandra-campaign-hero__logo{position:absolute;top:2%;right:2%;width:clamp(42px,5vw,84px);height:auto;filter:drop-shadow(0 2px 5px rgba(0,0,0,.65));pointer-events:none}
 
 /* Full-width Sandra explanation, same panoramic height as the hero. */
-#funktionen.sandra-experience{container-type:inline-size;display:grid;grid-template-columns:56% 44%;aspect-ratio:1983/793;padding:0;gap:0;align-items:stretch;background:#043354 url("assets/img/sandra-experience.webp") center/cover no-repeat;color:#fff}
+#funktionen.sandra-experience{container-type:inline-size;display:grid;grid-template-columns:56% 44%;aspect-ratio:1983/793;padding:0;gap:0;align-items:stretch;background:linear-gradient(90deg,rgba(2,31,53,.52) 0%,rgba(2,31,53,.6) 52%,transparent 68%),#043354 url("assets/img/sandra-experience.webp") center/cover no-repeat;color:#fff}
 .sandra-experience__copy{padding:2.2cqw 0 2cqw 5.8cqw;align-self:center}
 .sandra-experience__eyebrow{margin:0 0 .6cqw;color:#35e1ec;font-size:.72cqw;line-height:1.3;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
 #funktionen .sandra-experience__copy h2{margin:0;font:600 2.65cqw/1.06 "Segoe UI",Arial,sans-serif;letter-spacing:-.025em}
