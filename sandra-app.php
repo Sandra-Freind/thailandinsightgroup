@@ -46,6 +46,11 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 .sandra-experience__video figcaption{font-size:16px}
 }
 
+.sandra-regions-art{position:relative;width:100%;aspect-ratio:1983/793;background:#032238;overflow:hidden}
+.sandra-regions-art>img{display:block;width:100%;height:auto}
+.sandra-regions-art__cta{position:absolute;left:70.8%;top:84.6%;width:19%;height:8.5%;border-radius:99px}
+.sandra-regions-art__cta:hover{background:rgba(255,255,255,.12)}
+.sandra-regions-art__cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
 </style>
 <section class="sandra-campaign-hero" aria-label="Sandra – deine persönliche Begleiterin für Urlaub und Alltag in Thailand">
 <a class="sandra-campaign-hero__link" href="#funktionen" aria-label="Sandra entdecken: Orte finden, Deutsch und Thai mit Stimme übersetzen und Hilfe im Alltag erhalten">
@@ -71,6 +76,9 @@ body:has(.sandra-campaign-hero) .site-header{position:relative;background:#03181
 <figcaption>Sieh dir an, wie Sandra hilft.</figcaption>
 </figure>
 </section>
-<section class="section section--ink"><div class="section-head"><div><p class="eyebrow">Sechs klar definierte Regionen</p><h2>Pattaya genauer gedacht</h2></div><p>Nicht jede Empfehlung ist von jedem Stadtteil aus sinnvoll. Sandra berücksichtigt Wege, Umgebung und den tatsächlichen Ort.</p></div><div class="topic-grid"><?php foreach(['Naklua'=>'Traditioneller, lokaler und nah am Norden der Stadt.','Wongamat'=>'Ruhigere Strandlage mit Hotels, Condos und Gastronomie.','Central Pattaya'=>'Einkaufen, Behörden, Verkehr und kurze Wege im Zentrum.','Pratumnak'=>'Zwischen Pattaya und Jomtien – Wohnlage mit eigenem Charakter.','Jomtien'=>'Strand, Langzeitaufenthalt und entspannterer Alltag.','Darkside / East Pattaya'=>'Wohngebiete, Familienalltag und Ziele östlich der Sukhumvit Road.'] as $region=>$text):?><article class="info-tile" style="background:#0b2527;border-color:rgba(213,173,85,.22)"><h3><?=e($region)?></h3><p style="color:rgba(255,255,255,.65)"><?=e($text)?></p></article><?php endforeach;?></div></section>
+<section id="pattaya-gebiete" class="sandra-regions-art" aria-label="Wo du bist, macht den Unterschied – Sandra in Pattaya">
+<img src="assets/img/sandra-pattaya-regions.webp" width="1983" height="793" loading="lazy" alt="Stilisierte Pattaya-Übersicht mit Naklua, Wongamat, Central Pattaya, Pratumnak, Jomtien und Darkside / East Pattaya. Wo du bist, macht den Unterschied. Sandra berücksichtigt dein Gebiet und fragt nach, was dir wichtig ist. Gesprächsbeispiel: Du suchst ein Restaurant am Meer; Sandra fragt nach deinem Gebiet, zum Beispiel Jomtien oder Wongamat. Du antwortest: In Jomtien, möglichst ruhig. So bekommst du bis zu drei passende Vorschläge für deine Umgebung.">
+<a class="sandra-regions-art__cta" href="kontakt.php" aria-label="Entdecke deine Sandra"></a>
+</section>
 <section class="story-split"><div><p class="eyebrow">Ein typischer Moment</p><h2>„Ich brauche jetzt einen guten Arzt in meiner Nähe.“</h2><p>Sandra fragt nach deinem Standort und deinem konkreten Anliegen. Danach bekommst du keine endlose Ergebnisliste, sondern zunächst bis zu drei nachvollziehbare Vorschläge.</p><a class="text-link" href="kontakt.php">Über den Start informiert werden →</a></div><figure><img src="assets/img/sandra-hero-premium.jpg" alt="Sandra unterstützt bei der Orientierung in Thailand" loading="lazy"></figure></section>
 <?php require __DIR__.'/includes/page-end.php';?>
